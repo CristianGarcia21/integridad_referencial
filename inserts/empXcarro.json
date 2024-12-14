@@ -1,0 +1,33 @@
+[
+    {
+        "id_empXcarro": 1,
+        "ced_emp": 100000017,
+        "idCarroEmer": 1,
+        "fecha_uso": "01/12/24"
+    },{
+        "id_empXcarro": 2,
+        "ced_emp": 100000018,
+        "idCarroEmer": 3,
+        "fecha_uso": "02/12/24"
+    },{
+        "id_empXcarro": 3,
+        "ced_emp": 100000019,
+        "idCarroEmer": 2,
+        "fecha_uso": "03/12/24"
+    },{
+        "id_empXcarro": 4,
+        "ced_emp": 100000017,
+        "idCarroEmer": 1,
+        "fecha_uso": "04/12/24"
+    },{
+        "id_empXcarro": 5,
+        "ced_emp": 100000018,
+        "idCarroEmer": 2,
+        "fecha_uso": "05/12/24"
+    },{
+        "id_empXcarro": 6,
+        "ced_emp": 100000016,
+        "idCarroEmer": 3,
+        "fecha_uso": "06/12/24"
+    }
+]

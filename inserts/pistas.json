@@ -1,0 +1,285 @@
+[{
+    "nombre_pista": "Pista Veloz",
+    "ubicacion": "Ciudad Norte",
+    "capacidad": 50,
+    "longitud": 2,
+    "estado": "Operativa",
+    "tipo": "Competitiva",
+    "valor_hora": 25000,
+    "karts": [
+        {
+            "idKart": 1,
+            "estado": "Disponible",
+            "modelo": "Racer X1",
+            "color": "Rojo"
+        },
+        {
+            "idKart": 3,
+            "estado": "Disponible",
+            "modelo": "Thunderbolt",
+            "color": "Negro"
+        },
+        {
+            "idKart": 4,
+            "estado": "Reservado",
+            "modelo": "Racer X1",
+            "color": "Verde"
+        },{
+            "idKart": 6,
+            "estado": "Disponible",
+            "modelo": "Speedster V2",
+            "color": "Naranja"
+        },{
+            "idKart": 7,
+            "estado": "En mantenimiento",
+            "modelo": "Racer X1",
+            "color": "Blanco"
+        },{
+            "idKart": 9,
+            "estado": "Disponible",
+            "modelo": "TurboJet",
+            "color": "Rojo"
+        },
+        {
+            "idKart": 10,
+            "estado": "Disponible",
+            "modelo": "Racer X1",
+            "color": "Negro"
+        },{
+            "idKart": 12,
+            "estado": "Disponible",
+            "modelo": "Thunderbolt",
+            "color": "Amarillo"
+        },{
+            "idKart": 13,
+            "estado": "Disponible",
+            "modelo": "TurboJet",
+            "color": "Blanco"
+        },{
+            "idKart": 15,
+            "estado": "Disponible",
+            "modelo": "Speedster V2",
+            "color": "Rojo"
+        },{
+            "idKart": 16,
+            "estado": "En mantenimiento",
+            "modelo": "Thunderbolt",
+            "color": "Negro"
+        },{
+            "idKart": 18,
+            "estado": "Disponible",
+            "modelo": "Racer X1",
+            "color": "Amarillo"
+        },{
+            "idKart": 19,
+            "estado": "Reservado",
+            "modelo": "Speedster V2",
+            "color": "Naranja"
+        },{
+            "idKart": 21,
+            "estado": "Disponible",
+            "modelo": "TurboJet",
+            "color": "Azul"
+        },{
+            "idKart": 22,
+            "estado": "En mantenimiento",
+            "modelo": "Racer X1",
+            "color": "Rojo"
+        },{
+            "idKart": 25,
+            "estado": "Disponible",
+            "modelo": "TurboJet",
+            "color": "Amarillo"
+        }
+    ],
+    "carroEmergencia": {
+        "idCarroEmer": 1,
+        "estado": "Disponible",
+        "matricula": "ABC123"
+    }
+},{
+    "nombre_pista": "Pista Tornado",
+    "ubicacion": "Ciudad Sur",
+    "capacidad": 40,
+    "longitud": 1,
+    "estado": "Operativa",
+    "tipo": "Recreativa",
+    "valor_hora": 18000,
+    "karts": [
+        {
+            "idKart": 1,
+            "estado": "Disponible",
+            "modelo": "Racer X1",
+            "color": "Rojo"
+        },{
+            "idKart": 2,
+            "estado": "En mantenimiento",
+            "modelo": "Speedster V2",
+            "color": "Azul"
+        },{
+            "idKart": 4,
+            "estado": "Reservado",
+            "modelo": "Racer X1",
+            "color": "Verde"
+        },{
+            "idKart": 5,
+            "estado": "Disponible",
+            "modelo": "TurboJet",
+            "color": "Amarillo"
+        },{
+            "idKart": 7,
+            "estado": "En mantenimiento",
+            "modelo": "Racer X1",
+            "color": "Blanco"
+        },
+        {
+            "idKart": 8,
+            "estado": "Reservado",
+            "modelo": "Thunderbolt",
+            "color": "Azul"
+        },
+        {
+            "idKart": 10,
+            "estado": "Disponible",
+            "modelo": "Racer X1",
+            "color": "Negro"
+        },{
+            "idKart": 11,
+            "estado": "En mantenimiento",
+            "modelo": "Speedster V2",
+            "color": "Verde"
+        },{
+            "idKart": 13,
+            "estado": "Disponible",
+            "modelo": "TurboJet",
+            "color": "Blanco"
+        },{
+            "idKart": 14,
+            "estado": "Reservado",
+            "modelo": "Racer X1",
+            "color": "Azul"
+        },{
+            "idKart": 16,
+            "estado": "En mantenimiento",
+            "modelo": "Thunderbolt",
+            "color": "Negro"
+        },{
+            "idKart": 17,
+            "estado": "Disponible",
+            "modelo": "TurboJet",
+            "color": "Verde"
+        },{
+            "idKart": 19,
+            "estado": "Reservado",
+            "modelo": "Speedster V2",
+            "color": "Naranja"
+        },{
+            "idKart": 20,
+            "estado": "Disponible",
+            "modelo": "Thunderbolt",
+            "color": "Blanco"
+        },{
+            "idKart": 23,
+            "estado": "Reservado",
+            "modelo": "Speedster V2",
+            "color": "Negro"
+        }
+    ],
+    "carroEmergencia": {
+        "idCarroEmer": 3,
+        "estado": "Disponible",
+        "matricula": "LMN789"
+    }
+},{
+    "nombre_pista": "Pista Relámpago",
+    "ubicacion": "Ciudad Este",
+    "capacidad": 60,
+    "longitud": 2,
+    "estado": "Operativa",
+    "tipo": "Competitiva",
+    "valor_hora": 25000,
+    "karts": [
+        {
+            "idKart": 2,
+            "estado": "En mantenimiento",
+            "modelo": "Speedster V2",
+            "color": "Azul"
+        },{
+            "idKart": 3,
+            "estado": "Disponible",
+            "modelo": "Thunderbolt",
+            "color": "Negro"
+        },{
+            "idKart": 5,
+            "estado": "Disponible",
+            "modelo": "TurboJet",
+            "color": "Amarillo"
+        },{
+            "idKart": 6,
+            "estado": "Disponible",
+            "modelo": "Speedster V2",
+            "color": "Naranja"
+        },
+        {
+            "idKart": 8,
+            "estado": "Reservado",
+            "modelo": "Thunderbolt",
+            "color": "Azul"
+        },{
+            "idKart": 9,
+            "estado": "Disponible",
+            "modelo": "TurboJet",
+            "color": "Rojo"
+        },{
+            "idKart": 11,
+            "estado": "En mantenimiento",
+            "modelo": "Speedster V2",
+            "color": "Verde"
+        },{
+            "idKart": 12,
+            "estado": "Disponible",
+            "modelo": "Thunderbolt",
+            "color": "Amarillo"
+        },{
+            "idKart": 14,
+            "estado": "Reservado",
+            "modelo": "Racer X1",
+            "color": "Azul"
+        },{
+            "idKart": 15,
+            "estado": "Disponible",
+            "modelo": "Speedster V2",
+            "color": "Rojo"
+        },{
+            "idKart": 17,
+            "estado": "Disponible",
+            "modelo": "TurboJet",
+            "color": "Verde"
+        },{
+            "idKart": 18,
+            "estado": "Disponible",
+            "modelo": "Racer X1",
+            "color": "Amarillo"
+        },{
+            "idKart": 20,
+            "estado": "Disponible",
+            "modelo": "Thunderbolt",
+            "color": "Blanco"
+        },{
+            "idKart": 21,
+            "estado": "Disponible",
+            "modelo": "TurboJet",
+            "color": "Azul"
+        },{
+            "idKart": 24,
+            "estado": "Disponible",
+            "modelo": "Thunderbolt",
+            "color": "Verde"
+        }
+    ],
+    "carroEmergencia": {
+        "idCarroEmer": 2,
+        "estado": "Disponible",
+        "matricula": "XYZ456"
+    }
+}]

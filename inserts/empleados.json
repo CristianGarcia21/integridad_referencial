@@ -1,0 +1,178 @@
+[
+  {
+    "_id": 100000001,
+    "nombre": "Carlos",
+    "apellido": "Ramírez",
+    "telefono": "3101234567",
+    "direccion": "Calle 1 #23-45",
+    "rol": "Venta Comida"
+  },
+  {
+    "_id": 100000002,
+    "nombre": "María",
+    "apellido": "González",
+    "telefono": "3112345678",
+    "direccion": "Carrera 12 #34-56",
+    "rol": "Venta Comida"
+  },
+  {
+    "_id": 100000003,
+    "nombre": "Andrés",
+    "apellido": "López",
+    "telefono": "3123456789",
+    "direccion": "Avenida 45 #67-89",
+    "rol": "Venta Comida"
+  },
+  {
+    "_id": 100000004,
+    "nombre": "Paola",
+    "apellido": "Martínez",
+    "telefono": "3134567890",
+    "direccion": "Calle 78 #90-12",
+    "rol": "Venta Comida"
+  },
+  {
+    "_id": 100000005,
+    "nombre": "Juan",
+    "apellido": "Pérez",
+    "telefono": "3145678901",
+    "direccion": "Carrera 23 #45-67",
+    "rol": "Venta Comida"
+  },
+  {
+    "_id": 100000006,
+    "nombre": "Luis",
+    "apellido": "Hernández",
+    "telefono": "3156789012",
+    "direccion": "Calle 56 #78-90",
+    "rol": "Mantenimiento"
+  },
+  {
+    "_id": 100000007,
+    "nombre": "Diana",
+    "apellido": "Ortiz",
+    "telefono": "3167890123",
+    "direccion": "Carrera 78 #90-12",
+    "rol": "Mantenimiento"
+  },
+  {
+    "_id": 100000008,
+    "nombre": "Jorge",
+    "apellido": "Vargas",
+    "telefono": "3178901234",
+    "direccion": "Avenida 12 #34-56",
+    "rol": "Mantenimiento"
+  },
+  {
+    "_id": 100000009,
+    "nombre": "Natalia",
+    "apellido": "Rojas",
+    "telefono": "3189012345",
+    "direccion": "Calle 34 #56-78",
+    "rol": "Mantenimiento"
+  },
+  {
+    "_id": 100000010,
+    "nombre": "Oscar",
+    "apellido": "Mendoza",
+    "telefono": "3190123456",
+    "direccion": "Carrera 45 #67-89",
+    "rol": "Mantenimiento"
+  },
+  {
+    "_id": 100000011,
+    "nombre": "Karen",
+    "apellido": "Jiménez",
+    "telefono": "3201234567",
+    "direccion": "Avenida 67 #89-01",
+    "rol": "Mantenimiento"
+  },
+  {
+    "_id": 100000012,
+    "nombre": "Carlos",
+    "apellido": "Castro",
+    "telefono": "3212345678",
+    "direccion": "Calle 89 #01-23",
+    "rol": "Mantenimiento"
+  },
+  {
+    "_id": 100000013,
+    "nombre": "Laura",
+    "apellido": "Quintero",
+    "telefono": "3223456789",
+    "direccion": "Carrera 12 #34-56",
+    "rol": "Bodega"
+  },
+  {
+    "_id": 100000014,
+    "nombre": "Felipe",
+    "apellido": "Moreno",
+    "telefono": "3234567890",
+    "direccion": "Avenida 45 #67-89",
+    "rol": "Bodega"
+  },
+  {
+    "_id": 100000015,
+    "nombre": "Daniela",
+    "apellido": "Sánchez",
+    "telefono": "3245678901",
+    "direccion": "Calle 67 #89-01",
+    "rol": "Bodega"
+  },
+  {
+    "_id": 100000016,
+    "nombre": "Ricardo",
+    "apellido": "Salazar",
+    "telefono": "3256789012",
+    "direccion": "Carrera 89 #01-23",
+    "rol": "Bodega"
+  },
+  {
+    "_id": 100000017,
+    "nombre": "Sofía",
+    "apellido": "Mejía",
+    "telefono": "3267890123",
+    "direccion": "Avenida 90 #12-34",
+    "rol": "Vehículos Emerg."
+  },
+  {
+    "_id": 100000018,
+    "nombre": "Diego",
+    "apellido": "Suárez",
+    "telefono": "3278901234",
+    "direccion": "Calle 23 #45-67",
+    "rol": "Vehículos Emerg."
+  },
+  {
+    "_id": 100000019,
+    "nombre": "Camila",
+    "apellido": "Pacheco",
+    "telefono": "3289012345",
+    "direccion": "Carrera 78 #90-12",
+    "rol": "Vehículos Emerg."
+  },
+  {
+    "_id": 100000020,
+    "nombre": "Sebastián",
+    "apellido": "Reyes",
+    "telefono": "3290123456",
+    "direccion": "Calle 45 #67-89",
+    "rol": "Taquilla"
+  },
+  {
+    "_id": 100000021,
+    "nombre": "Isabela",
+    "apellido": "Torres",
+    "telefono": "3301234567",
+    "direccion": "Avenida 56 #78-90",
+    "rol": "Taquilla"
+  },
+  {
+    "_id": 100000022,
+    "nombre": "Mateo",
+    "apellido": "Ortega",
+    "telefono": "3312345678",
+    "direccion": "Carrera 90 #12-34",
+    "rol": "Taquilla"
+  }
+]
