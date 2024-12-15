@@ -1,0 +1,92 @@
+[
+  {
+    "ced_proveedor": 9876543210,
+    "nombre": "Carlos",
+    "apellido": "Pérez",
+    "telefono": 3001234567
+  },
+  {
+    "ced_proveedor": 8765432109,
+    "nombre": "María",
+    "apellido": "Gómez",
+    "telefono": 3002345678
+  },
+  {
+    "ced_proveedor": 7654321098,
+    "nombre": "Luis",
+    "apellido": "Ramírez",
+    "telefono": 3003456789
+  },
+  {
+    "ced_proveedor": 6543210987,
+    "nombre": "Ana",
+    "apellido": "Hernández",
+    "telefono": 3004567890
+  },
+  {
+    "ced_proveedor": 5432109876,
+    "nombre": "Jorge",
+    "apellido": "Torres",
+    "telefono": 3005678901
+  },
+  {
+    "ced_proveedor": 4321098765,
+    "nombre": "Laura",
+    "apellido": "Martínez",
+    "telefono": 3006789012
+  },
+  {
+    "ced_proveedor": 3210987654,
+    "nombre": "Diego",
+    "apellido": "Rojas",
+    "telefono": 3007890123
+  },
+  {
+    "ced_proveedor": 2109876543,
+    "nombre": "Patricia",
+    "apellido": "García",
+    "telefono": 3008901234
+  },
+  {
+    "ced_proveedor": 1098765432,
+    "nombre": "Miguel",
+    "apellido": "Mendoza",
+    "telefono": 3011234567
+  },
+  {
+    "ced_proveedor": 1987654321,
+    "nombre": "Lucía",
+    "apellido": "Vega",
+    "telefono": 3012345678
+  },
+  {
+    "ced_proveedor": 8976543210,
+    "nombre": "Andrés",
+    "apellido": "Morales",
+    "telefono": 3013456789
+  },
+  {
+    "ced_proveedor": 7865432109,
+    "nombre": "Claudia",
+    "apellido": "Guerrero",
+    "telefono": 3014567890
+  },
+  {
+    "ced_proveedor": 6754321098,
+    "nombre": "Samuel",
+    "apellido": "Pineda",
+    "telefono": 3015678901
+  },
+  {
+    "ced_proveedor": 5643210987,
+    "nombre": "Camila",
+    "apellido": "Ortega",
+    "telefono": 3016789012
+  },
+  {
+    "ced_proveedor": 4532109876,
+    "nombre": "Pablo",
+    "apellido": "Ramos",
+    "telefono": 3017890123
+  }
+]

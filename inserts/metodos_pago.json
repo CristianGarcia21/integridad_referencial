@@ -1,0 +1,35 @@
+[
+    {
+      "id_metodo_pago": 1,
+      "tipo_pago": "Efectivo"
+    },
+    {
+      "id_metodo_pago": 2,
+      "tipo_pago": "Tarjeta de Crédito"
+    },
+    {
+      "id_metodo_pago": 3,
+      "tipo_pago": "Tarjeta Débito"
+    },
+    {
+      "id_metodo_pago": 4,
+      "tipo_pago": "Transferencia Bancaria"
+    },
+    {
+      "id_metodo_pago": 5,
+      "tipo_pago": "PSE"
+    },
+    {
+      "id_metodo_pago": 6,
+      "tipo_pago": "Nequi"
+    },
+    {
+      "id_metodo_pago": 7,
+      "tipo_pago": "Daviplata"
+    },
+    {
+      "id_metodo_pago": 8,
+      "tipo_pago": "Pago en Línea"
+    }
+  ]
+  
