@@ -8,6 +8,8 @@ const usuarioRoutes = require("./routes/usuarioRoutes");
 const menuRoutes = require("./routes/menuRoutes");
 const mantenimientoRoutes = require("./routes/mantenimientoRoutes");
 const empXMantenimientoRoutes = require("./routes/empXmantenimientoRoutes");
+const implementoRoutes = require("./routes/implementosRoutes");
+const sesionesRoutes = require("./routes/sesionRoutes");
 
 const app = express();
 app.use(express.json());
@@ -20,13 +22,15 @@ mongoose
 
 // Rutas
 app.use("/api/empleadoXcarro", empleadoXcarroRoutes);
-app.use("/api/empleados", empleadoRoutes);
+app.use("/api", empleadoRoutes);
 app.use("/api/pistas", pistaRoutes);
 app.use("/api/puestoComida", puestoComida),
-  app.use("/api/usuarios", usuarioRoutes);
+app.use("/api", usuarioRoutes);
 app.use("/api/menus", menuRoutes);
 app.use("/api/mantenimientos", mantenimientoRoutes);
 app.use('/api/empXMantenimientos', empXMantenimientoRoutes);
+app.use('/api/implementos', implementoRoutes);
+app.use('/api', sesionesRoutes)
 // app.use('/api/metodosPago', metodoPagoRoutes);
 
 

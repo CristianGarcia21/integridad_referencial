@@ -3,12 +3,12 @@
         "_id" : 1,
         "idPista": 1,
         "id_usuario" : [1],
-        "hora_inicio" : "9:00",
+        "hora_inicio" : "09:00",
         "hora_fin" : "10:00",
-        "fecha" : "01/11/24",
+        "fecha" : "01/11/2024",
         "ced_empleado" : 100000020,
         "id_kart":1,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 1,
                 "id_usuario" : 1,
@@ -20,12 +20,12 @@
        "_id":2,
        "idPista": 2,
        "id_usuario" : [2],
-        "hora_inicio" : "9:30",
+        "hora_inicio" : "09:30",
         "hora_fin" : "10:00",
-        "fecha" : "02/11/24",
+        "fecha" : "02/11/2024",
         "ced_empleado":100000020,
         "id_kart":2,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 2,
                 "id_usuario" : 2,
@@ -39,10 +39,10 @@
         "id_usuario" : [3],
         "hora_inicio" : "10:00",
         "hora_fin" : "10:30",
-        "fecha" : "03/11/24",
+        "fecha" : "03/11/2024",
         "ced_empleado":100000022,
         "id_kart":3,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 3,
                 "id_usuario" : 3,
@@ -56,10 +56,10 @@
         "id_usuario" : [4],
         "hora_inicio" : "10:30",
         "hora_fin" : "11:00",
-        "fecha" : "04/11/24",
+        "fecha" : "04/11/2024",
         "ced_empleado":100000020,
         "id_kart":4,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 1,
                 "id_usuario" : 4,
@@ -73,10 +73,10 @@
         "id_usuario" : [5],
         "hora_inicio" : "11:00",
         "hora_fin" : "11:30",
-        "fecha" : "05/11/24",
+        "fecha" : "05/11/2024",
         "ced_empleado":100000021,
         "id_kart":5,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 4,
                 "id_usuario" : 5,
@@ -93,7 +93,7 @@
         "fecha" : "06/11/2024",
         "ced_empleado":100000022,
         "id_kart":6,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 5,
                 "id_usuario" : 6,
@@ -110,7 +110,7 @@
         "fecha" : "01/12/2024",
         "ced_empleado":100000020,
         "id_kart":7,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 6,
                 "id_usuario" : 7,
@@ -127,7 +127,7 @@
         "fecha" : "02/12/2024",
         "ced_empleado":100000021,
         "id_kart":8,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 7,
                 "id_usuario" : 8,
@@ -144,7 +144,7 @@
         "fecha" : "03/12/2024",
         "ced_empleado":100000022,
         "id_kart":9,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 8,
                 "id_usuario" : 9,
@@ -161,7 +161,7 @@
         "fecha" : "04/12/2024",
         "ced_empleado":100000020,
         "id_kart":10,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 9,
                 "id_usuario" : 10,
@@ -178,7 +178,7 @@
         "fecha" : "05/12/2024",
         "ced_empleado":100000021,
         "id_kart":11,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 10,
                 "id_usuario" : 11,
@@ -195,7 +195,7 @@
         "fecha" : "06/12/2024",
         "ced_empleado":100000022,
         "id_kart":12,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 2,
                 "id_usuario" : 12,
@@ -212,7 +212,7 @@
         "fecha" : "06/12/2024",
         "ced_empleado":100000022,
         "id_kart":12,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 2,
                 "id_usuario" : 12,
@@ -229,7 +229,7 @@
         "fecha" : "07/12/2024",
         "ced_empleado":100000020,
         "id_kart":13,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 3,
                 "id_usuario" : 13,
@@ -246,7 +246,7 @@
         "fecha" : "02/01/2025",
         "ced_empleado":100000021,
         "id_kart":14,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 4,
                 "id_usuario" : 14,
@@ -263,7 +263,7 @@
         "fecha" : "03/01/2025",
         "ced_empleado":100000022,
         "id_kart":15,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 5,
                 "id_usuario" : 15,
@@ -280,7 +280,7 @@
         "fecha" : "04/01/2025",
         "ced_empleado":100000020,
         "id_kart":16,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 6,
                 "id_usuario" : 16,
@@ -297,7 +297,7 @@
         "fecha" : "05/01/2025",
         "ced_empleado":100000021,
         "id_kart":17,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 7,
                 "id_usuario" : 17,
@@ -314,7 +314,7 @@
         "fecha" : "06/01/2025",
         "ced_empleado":100000022,
         "id_kart":18,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 8,
                 "id_usuario" : 18,
@@ -331,7 +331,7 @@
         "fecha" : "07/11/2024",
         "ced_empleado":100000020,
         "id_kart":19,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 9,
                 "id_usuario" : 19,
@@ -348,7 +348,7 @@
         "fecha" : "07/11/2024",
         "ced_empleado":100000021,
         "id_kart":20,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 10,
                 "id_usuario" : 20,
@@ -365,7 +365,7 @@
         "fecha" : "07/11/2024",
         "ced_empleado":100000022,
         "id_kart":21,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 11,
                 "id_usuario" : 21,
@@ -382,7 +382,7 @@
         "fecha" : "07/11/2024",
         "ced_empleado":100000020,
         "id_kart":22,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 12,
                 "id_usuario" : 22,
@@ -399,7 +399,7 @@
         "fecha" : "07/11/2024",
         "ced_empleado":100000021,
         "id_kart":23,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 13,
                 "id_usuario" : 23,
@@ -416,7 +416,7 @@
         "fecha" : "07/11/2024",
         "ced_empleado":100000022,
         "id_kart":24,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento": 14,
                 "id_usuario" : 24,
@@ -433,7 +433,7 @@
         "fecha" : "10/12/2024",
         "ced_empleado":100000020,
         "id_kart":1,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 15,
                 "id_usuario" : 25,
@@ -450,7 +450,7 @@
         "fecha" : "10/12/2024",
         "ced_empleado":100000021,
         "id_kart":2,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 1,
                 "id_usuario" : 26,
@@ -467,7 +467,7 @@
         "fecha" : "10/12/2024",
         "ced_empleado":100000022,
         "id_kart":3,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 2,
                 "id_usuario" : 27,
@@ -484,7 +484,7 @@
         "fecha" : "10/12/2024",
         "ced_empleado":100000020,
         "id_kart":4,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 3,
                 "id_usuario" : 28,
@@ -501,7 +501,7 @@
         "fecha" : "10/12/2024",
         "ced_empleado":100000021,
         "id_kart":5,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 4,
                 "id_usuario" : 29,
@@ -518,7 +518,7 @@
         "fecha" : "10/12/2024",
         "ced_empleado":100000022,
         "id_kart":6,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 5,
                 "id_usuario" : 30,
@@ -535,7 +535,7 @@
         "fecha" : "15/01/2025",
         "ced_empleado":100000020,
         "id_kart":7,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 6,
                 "id_usuario" : 31,
@@ -552,7 +552,7 @@
         "fecha" : "15/01/2025",
         "ced_empleado":100000021,
         "id_kart":8,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 7,
                 "id_usuario" : 32,
@@ -569,7 +569,7 @@
         "fecha" : "15/01/2025",
         "ced_empleado":100000022,
         "id_kart":9,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 8,
                 "id_usuario" : 33,
@@ -586,7 +586,7 @@
         "fecha" : "15/01/2025",
         "ced_empleado":100000020,
         "id_kart":10,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 9,
                 "id_usuario" : 34,
@@ -603,7 +603,7 @@
         "fecha" : "15/01/2025",
         "ced_empleado":100000021,
         "id_kart":11,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 10,
                 "id_usuario" : 35,
@@ -620,7 +620,7 @@
         "fecha" : "15/01/2025",
         "ced_empleado":100000022,
         "id_kart":12,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 11,
                 "id_usuario" : 36,
@@ -637,7 +637,7 @@
         "fecha" : "15/12/2024",
         "ced_empleado":100000020,
         "id_kart":13,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 12,
                 "id_usuario" : 37,
@@ -654,7 +654,7 @@
         "fecha" : "15/12/2024",
         "ced_empleado":100000021,
         "id_kart":14,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 13,
                 "id_usuario" : 38,
@@ -671,7 +671,7 @@
         "fecha" : "15/12/2024",
         "ced_empleado":100000022,
         "id_kart":15,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 14,
                 "id_usuario" : 39,
@@ -688,7 +688,7 @@
         "fecha" : "15/12/2024",
         "ced_empleado":100000020,
         "id_kart":16,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 15,
                 "id_usuario" : 40,
@@ -705,7 +705,7 @@
         "fecha" : "15/12/2024",
         "ced_empleado":100000021,
         "id_kart":17,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 1,
                 "id_usuario" : 41,
@@ -722,7 +722,7 @@
         "fecha" : "15/12/2024",
         "ced_empleado":100000022,
         "id_kart":18,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 2,
                 "id_usuario" : 42,
@@ -739,7 +739,7 @@
         "fecha" : "10/01/2025",
         "ced_empleado":100000020,
         "id_kart":19,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 3,
                 "id_usuario" : 43,
@@ -756,7 +756,7 @@
         "fecha" : "10/01/2025",
         "ced_empleado":100000021,
         "id_kart":20,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 4,
                 "id_usuario" : 44,
@@ -773,7 +773,7 @@
         "fecha" : "10/01/2025",
         "ced_empleado":100000022,
         "id_kart":21,
-        "usearioXimplemento" : [
+        "usuarioXimplemento" : [
             {
                 "id_implemento" : 5,
                 "id_usuario" : 45,
