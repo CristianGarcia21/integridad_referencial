@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const provXrepuestoSchema = new mongoose.Schema({
-    id_provxrep: {
+    idProvxRep: {
         type: Number,
         unique: true,
     },
@@ -21,14 +21,14 @@ const provXrepuestoSchema = new mongoose.Schema({
     },
 });
 
-// Middleware para generar `id_provxrep` automáticamente si no se pasa
+// Middleware para generar `idProvxRep` automáticamente si no se pasa
 empleadoXcarroSchema.pre("save", async function (next) {
-    if (!this.id_provxrep) {
+    if (!this.idProvxRep) {
         const lastDoc = await mongoose
             .model("provxrepuesto")
             .findOne()
-            .sort({ id_provxrep: -1 }); // Obtener el último documento insertado
-        this.id_provxrep = lastDoc ? lastDoc.id_provxrep + 1 : 1; // Incrementar o iniciar en 1
+            .sort({ idProvxRep: -1 }); // Obtener el último documento insertado
+        this.idProvxRep = lastDoc ? lastDoc.idProvxRep + 1 : 1; // Incrementar o iniciar en 1
     }
     next();
 });

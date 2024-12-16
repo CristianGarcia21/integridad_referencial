@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const repuestoSchema = new mongoose.Schema({
     idRepuesto: { type: Number, required: true },
-    tipo_repuesto: { type: String, required: true },
+    tipoRepuesto: { type: String, required: true },
     cantidad: { type: Number, required: true },
     precio: { type: Number, required: true }
 });
@@ -12,8 +12,8 @@ repuestoSchema.post("findOneAndUpdate", async function (doc) {
     if (doc) {
         const provxrepuesto = mongoose.model("provxrepuesto");
         await provxrepuesto.updateMany(
-            { tipo_repuesto: doc.tipo_repuesto },
-            { $set: { tipo_repuesto: doc.tipo_repuesto } } // Actualizar el campo referenciado si es necesario
+            { tipoRepuesto: doc.tipoRepuesto },
+            { $set: { tipoRepuesto: doc.tipoRepuesto } } // Actualizar el campo referenciado si es necesario
         );
     }
 });

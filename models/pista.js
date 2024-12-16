@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
 const pistaSchema = new mongoose.Schema({
+  idPista: { type: Number, required: true, unique: true },
   nombre_pista: { type: String, required: true },
   ubicacion: { type: String, required: true },
   capacidad: { type: Number, required: true },
@@ -26,32 +27,32 @@ const pistaSchema = new mongoose.Schema({
 
 
 pistaSchema.pre("remove", async function (next) {
-    const EmpleadoXCarro = mongoose.model("EmpleadoXCarro");
+  const EmpleadoXCarro = mongoose.model("EmpleadoXCarro");
 
-    // Eliminar todas las relaciones que hacen referencia a este carro de emergencia
-    await EmpleadoXCarro.deleteMany({ idCarroEmer: this.carroEmergencia.idCarroEmer });
-    console.log(`Relaciones eliminadas para carroEmergencia ID ${this.carroEmergencia.idCarroEmer}`);
-    next();
+  // Eliminar todas las relaciones que hacen referencia a este carro de emergencia
+  await EmpleadoXCarro.deleteMany({ idCarroEmer: this.carroEmergencia.idCarroEmer });
+  console.log(`Relaciones eliminadas para carroEmergencia ID ${this.carroEmergencia.idCarroEmer}`);
+  next();
 });
 
 pistaSchema.post("findOneAndUpdate", async function (doc) {
-    if (doc) {
-        const carroEmergenciaActualizado = doc.carroEmergencia;
+  if (doc) {
+    const carroEmergenciaActualizado = doc.carroEmergencia;
 
-        if (carroEmergenciaActualizado) {
-            const EmpleadoXCarro = mongoose.model("EmpleadoXCarro");
+    if (carroEmergenciaActualizado) {
+      const EmpleadoXCarro = mongoose.model("EmpleadoXCarro");
 
-            // Actualizar las referencias en EmpleadoXCarro
-            await EmpleadoXCarro.updateMany(
-                { idCarroEmer: carroEmergenciaActualizado.idCarroEmer },
-                {
-                    $set: { idCarroEmer: carroEmergenciaActualizado.idCarroEmer },
-                }
-            );
-
-            console.log(`Referencias actualizadas para carroEmergencia ID ${carroEmergenciaActualizado.idCarroEmer}`);
+      // Actualizar las referencias en EmpleadoXCarro
+      await EmpleadoXCarro.updateMany(
+        { idCarroEmer: carroEmergenciaActualizado.idCarroEmer },
+        {
+          $set: { idCarroEmer: carroEmergenciaActualizado.idCarroEmer },
         }
+      );
+
+      console.log(`Referencias actualizadas para carroEmergencia ID ${carroEmergenciaActualizado.idCarroEmer}`);
     }
+  }
 });
 
 
