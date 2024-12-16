@@ -1,4 +1,5 @@
 [{
+    "_id":1,
     "nombre_pista": "Pista Veloz",
     "ubicacion": "Ciudad Norte",
     "capacidad": 50,
@@ -98,6 +99,7 @@
         "matricula": "ABC123"
     }
 },{
+    "_id":2,
     "nombre_pista": "Pista Tornado",
     "ubicacion": "Ciudad Sur",
     "capacidad": 40,
@@ -191,6 +193,7 @@
         "matricula": "LMN789"
     }
 },{
+    "_id":3,
     "nombre_pista": "Pista Relámpago",
     "ubicacion": "Ciudad Este",
     "capacidad": 60,
