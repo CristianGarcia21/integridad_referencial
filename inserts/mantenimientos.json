@@ -1,0 +1,402 @@
+[
+    {
+      "_id": 1,
+      "descripcion": "Revisión general de frenos y ajuste de la cadena.",
+      "idKart": 1,
+      "idPista": 1,
+      "idCarroEmer": 1,
+      "idRepuestos": [1]
+    },
+    {
+      "_id": 2,
+      "descripcion": "Cambio de llantas traseras y limpieza del sistema de escape.",
+      "idKart": 2,
+      "idPista": 2,
+      "idCarroEmer": 1,
+      "idRepuestos": [2]
+    },
+    {
+      "_id": 3,
+      "descripcion": "Ajuste de volante y revisión del motor.",
+      "idKart": 3,
+      "idPista": 3,
+      "idCarroEmer": 2,
+      "idRepuestos": [3]
+    },
+    {
+      "_id": 4,
+      "descripcion": "Cambio de aceite del motor y ajuste de la suspensión.",
+      "idKart": 4,
+      "idPista": 1,
+      "idCarroEmer": 3,
+      "idRepuestos": [4]
+    },
+    {
+      "_id": 5,
+      "descripcion": "Revisión del chasis y reemplazo de filtro de aire.",
+      "idKart": 5,
+      "idPista": 2,
+      "idCarroEmer": 3,
+      "idRepuestos": [5]
+    },
+    {
+      "_id": 6,
+      "descripcion": "Limpieza de frenos y ajuste de neumáticos.",
+      "idKart": 6,
+      "idPista": 3,
+      "idCarroEmer": 2,
+      "idRepuestos": [6]
+    },
+    {
+        "_id": 7,
+        "descripcion": "Cambio de llantas delanteras y revisión de frenos.",
+        "idKart": null,
+        "idPista": 1,
+        "idCarroEmer": 1,
+        "idRepuestos": [8, 3]  
+    },
+    {
+        "_id": 8,
+        "descripcion": "Reemplazo de batería y limpieza de motor.",
+        "idKart": null,
+        "idPista": 2,
+        "idCarroEmer": 2,
+        "idRepuestos": [8, 2]  
+    },
+    {
+        "_id": 9,
+        "descripcion": "Revisión general de luces y sistema de dirección.",
+        "idKart": null,
+        "idPista": 3,
+        "idCarroEmer": 3,
+        "idRepuestos": [10] 
+    },
+    {
+        "_id": 10,
+        "descripcion": "Revisión y cambio de líquido de frenos.",
+        "idKart": null,
+        "idPista": 1,
+        "idCarroEmer": 1,
+        "idRepuestos": [11]  
+    },
+    {
+        "_id": 11,
+        "descripcion": "Reparación de grietas en la pista principal.",
+        "idKart": null,
+        "idPista": 1,
+        "idCarroEmer": null,
+        "idRepuestos": [12, 13]  
+    },
+    {
+        "_id": 12,
+        "descripcion": "Reemplazo de barreras de seguridad.",
+        "idKart": null,
+        "idPista": 2,
+        "idCarroEmer": null,
+        "idRepuestos": [17]
+    },
+    {
+        "_id": 13,
+        "descripcion": "Pintura de líneas de delimitación en la pista.",
+        "idKart": null,
+        "idPista": 3,
+        "idCarroEmer": null,
+        "idRepuestos": [14]
+    },
+    {
+        "_id": 14,
+        "descripcion": "Limpieza general de la pista después de un evento.",
+        "idKart": null,
+        "idPista": 1,
+        "idCarroEmer": null,
+        "idRepuestos": [] 
+    },
+    {
+        "_id": 15,
+        "descripcion": "Reparación de secciones dañadas por desgaste.",
+        "idKart": null,
+        "idPista": 2,
+        "idCarroEmer": null,
+        "idRepuestos": [12, 13] 
+    },
+    {
+        "_id": 16,
+        "descripcion": "Cambio de cadena y ajuste de frenos.",
+        "idKart": 7,
+        "idPista": 1,
+        "idCarroEmer": 1,
+        "idRepuestos": [9, 3]
+    },
+    {
+        "_id": 17,
+        "descripcion": "Limpieza del motor y revisión de sistema eléctrico.",
+        "idKart": 8,
+        "idPista": 2,
+        "idCarroEmer": 2,
+        "idRepuestos": [2, 10]  
+    },
+    {
+        "_id": 18,
+        "descripcion": "Cambio de neumáticos y ajuste del volante.",
+        "idKart": 9,
+        "idPista": 3,
+        "idCarroEmer": 3,
+        "idRepuestos": [1, 4]
+    },
+    {
+        "_id": 19,
+        "descripcion": "Revisión general de frenos y chasis.",
+        "idKart": 10,
+        "idPista": 1,
+        "idCarroEmer": 1,
+        "idRepuestos": [3] 
+    },
+    {
+        "_id": 20,
+        "descripcion": "Reemplazo de filtro de aire y limpieza de carburador.",
+        "idKart": 11,
+        "idPista": 2,
+        "idCarroEmer": 2,
+        "idRepuestos": [10]
+    },
+    {
+        "_id": 21,
+        "descripcion": "Ajuste de suspensión y cambio de batería.",
+        "idKart": 12,
+        "idPista": 3,
+        "idCarroEmer": 3,
+        "idRepuestos": [6, 8] 
+    },
+    {
+        "_id": 22,
+        "descripcion": "Limpieza de frenos y reemplazo de sistema de escape.",
+        "idKart": 13,
+        "idPista": 1,
+        "idCarroEmer": 1,
+        "idRepuestos": [3, 11] 
+    },
+    {
+        "_id": 23,
+        "descripcion": "Cambio de aceite y ajuste de la cadena.",
+        "idKart": 14,
+        "idPista": 2,
+        "idCarroEmer": 2,
+        "idRepuestos": [9]  
+    },
+    {
+        "_id": 24,
+        "descripcion": "Revisión del sistema eléctrico y ajuste de frenos.",
+        "idKart": 15,
+        "idPista": 3,
+        "idCarroEmer": 3,
+        "idRepuestos": [10, 3]  
+    },
+    {
+        "_id": 25,
+        "descripcion": "Revisión general de luces y limpieza de cabina.",
+        "idKart": null,
+        "idPista": 1,
+        "idCarroEmer": 1,
+        "idRepuestos": [10]  
+    },
+    {
+        "_id": 26,
+        "descripcion": "Cambio de aceite del motor y ajuste de neumáticos.",
+        "idKart": null,
+        "idPista": 2,
+        "idCarroEmer": 2,
+        "idRepuestos": [7, 1] 
+    },
+    {
+        "_id": 27,
+        "descripcion": "Reemplazo de batería y revisión del sistema de frenos.",
+        "idKart": null,
+        "idPista": 3,
+        "idCarroEmer": 3,
+        "idRepuestos": [8, 3]
+    },
+    {
+        "_id": 28,
+        "descripcion": "Ajuste de suspensión y cambio de líquido de frenos.",
+        "idKart": null,
+        "idPista": 1,
+        "idCarroEmer": 1,
+        "idRepuestos": [6, 3]
+    },
+    {
+        "_id": 29,
+        "descripcion": "Revisión de motor y limpieza de sistema de escape.",
+        "idKart": null,
+        "idPista": 2,
+        "idCarroEmer": 2,
+        "idRepuestos": [2, 11]  
+    },
+    {
+        "_id": 30,
+        "descripcion": "Cambio de llantas traseras y ajuste de frenos.",
+        "idKart": null,
+        "idPista": 3,
+        "idCarroEmer": 3,
+        "idRepuestos": [1, 3]  
+    },
+    {
+        "_id": 31,
+        "descripcion": "Reparación de grietas en la pista secundaria.",
+        "idKart": null,
+        "idPista": 1,
+        "idCarroEmer": null,
+        "idRepuestos": [12, 13] 
+    },
+    {
+        "_id": 32,
+        "descripcion": "Instalación de nuevos reflectores en las curvas.",
+        "idKart": null,
+        "idPista": 2,
+        "idCarroEmer": null,
+        "idRepuestos": [15]  
+    },
+    {
+        "_id": 33,
+        "descripcion": "Reparación de barreras de seguridad.",
+        "idKart": null,
+        "idPista": 3,
+        "idCarroEmer": null,
+        "idRepuestos": [17]  
+    },
+    {
+        "_id": 34,
+        "descripcion": "Limpieza general y revisión de señalización.",
+        "idKart": null,
+        "idPista": 1,
+        "idCarroEmer": null,
+        "idRepuestos": [] 
+    },
+    {
+        "_id": 35,
+        "descripcion": "Pintura de líneas de delimitación.",
+        "idKart": null,
+        "idPista": 2,
+        "idCarroEmer": null,
+        "idRepuestos": [14] 
+    },
+    {
+        "_id": 36,
+        "descripcion": "Revisión de estado general de asfalto.",
+        "idKart": null,
+        "idPista": 3,
+        "idCarroEmer": null,
+        "idRepuestos": [] 
+    },
+    {
+        "_id": 37,
+        "descripcion": "Revisión integral de pista, kart, y carro de emergencia.",
+        "idKart": 16,
+        "idPista": 1,
+        "idCarroEmer": 1,
+        "idRepuestos": [2, 3, 10]  
+    },
+    {
+        "_id": 38,
+        "descripcion": "Revisión de pista y ajuste de motor de kart.",
+        "idKart": 17,
+        "idPista": 2,
+        "idCarroEmer": 2,
+        "idRepuestos": [2]  
+    },
+    {
+        "_id": 39,
+        "descripcion": "Revisión combinada: pista, luces de emergencia, y kart.",
+        "idKart": 18,
+        "idPista": 3,
+        "idCarroEmer": 3,
+        "idRepuestos": [10, 3] 
+    },
+    {
+        "_id": 40,
+        "descripcion": "Revisión completa de sistema eléctrico en kart y carro de emergencia.",
+        "idKart": 19,
+        "idPista": 1,
+        "idCarroEmer": 1,
+        "idRepuestos": [10, 8]  
+    },
+    {
+        "_id": 41,
+        "descripcion": "Cambio de frenos del kart y ajuste en la superficie de la pista.",
+        "idKart": 20,
+        "idPista": 2,
+        "idCarroEmer": 2,
+        "idRepuestos": [3, 12]  
+    },
+    {
+        "_id": 42,
+        "descripcion": "Revisión integral de luces, motores, y sistema de seguridad.",
+        "idKart": 21,
+        "idPista": 3,
+        "idCarroEmer": 3,
+        "idRepuestos": [10, 2, 17] 
+    },
+    {
+        "_id": 43,
+        "descripcion": "Reemplazo de asfalto en curva principal y cambio de aceite en kart.",
+        "idKart": 22,
+        "idPista": 1,
+        "idCarroEmer": 1,
+        "idRepuestos": [12, 7]  
+    },
+    {
+        "_id": 44,
+        "descripcion": "Instalación de nuevas barreras de seguridad y limpieza de pista.",
+        "idKart": 23,
+        "idPista": 2,
+        "idCarroEmer": 2,
+        "idRepuestos": [17]  
+    },
+    {
+        "_id": 45,
+        "descripcion": "Cambio de neumáticos en kart y revisión del motor del carro de emergencia.",
+        "idKart": 24,
+        "idPista": 3,
+        "idCarroEmer": 3,
+        "idRepuestos": [1, 2]  
+    },
+    {
+        "_id": 46,
+        "descripcion": "Limpieza general de pista y ajuste de suspensión del kart.",
+        "idKart": 25,
+        "idPista": 1,
+        "idCarroEmer": 1,
+        "idRepuestos": [6]  
+    },
+    {
+        "_id": 47,
+        "descripcion": "Reparación de zonas desgastadas por lluvia en la pista principal.",
+        "idKart": null,
+        "idPista": 1,
+        "idCarroEmer": null,
+        "idRepuestos": [12, 13] 
+    },
+    {
+        "_id": 48,
+        "descripcion": "Mantenimiento de señalización y pintura de curvas.",
+        "idKart": null,
+        "idPista": 2,
+        "idCarroEmer": null,
+        "idRepuestos": [14]  
+    },
+    {
+        "_id": 49,
+        "descripcion": "Limpieza de asfalto y revisión de barreras de protección.",
+        "idKart": null,
+        "idPista": 3,
+        "idCarroEmer": null,
+        "idRepuestos": [17]  
+    },
+    {
+        "_id": 50,
+        "descripcion": "Revisión de drenajes y preparación para evento especial.",
+        "idKart": null,
+        "idPista": 1,
+        "idCarroEmer": null,
+        "idRepuestos": [16] 
+    }
+]
