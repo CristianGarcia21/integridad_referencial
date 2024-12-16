@@ -1,0 +1,339 @@
+[
+    {
+        "id_puesto_comida": 1,
+        "nombre" : "Rápidos Snacks",
+        "capacidad" : 20,
+        "localizacion" : "Zona de Recepción",
+        "idMenu": [ 1,2,3,4,5,6],
+        "resenas": [
+            {
+                "idResena": 1,
+                "idUsuario": 1,
+                "fecha": "01/12/2024",
+                "descripcion": "Las papas fritas estaban perfectas, crujientes y calientes."
+            },{
+                "idResena": 2,
+                "idUsuario": 2,
+                "fecha": "02/12/2024",
+                "descripcion": "Las salchipapas tenían muchas salsas, deliciosas."
+            },{
+                "idResena": 3,
+                "idUsuario": 3,
+                "fecha": "03/12/2024",
+                "descripcion": "El sándwich estaba rico, pero le faltaba un poco más de queso."
+            },{
+                "idResena": 4,
+                "idUsuario": 4,
+                "fecha": "04/12/2024",
+                "descripcion": "El hot dog estaba muy bien preparado, la salchicha tenía buen sabor."
+            },{
+                "idResena": 5,
+                "idUsuario": 5,
+                "fecha": "05/12/2024",
+                "descripcion": "Las arepas de chócolo estaban suaves y dulces, buen acompañamiento."
+            },{
+                "idResena": 6,
+                "idUsuario": 6,
+                "fecha": "06/12/2024",
+                "descripcion": "El chicharrón tenía buen sabor, aunque un poco grasoso."
+            },{
+                "idResena": 7,
+                "idUsuario": 7,
+                "fecha": "07/12/2024",
+                "descripcion": "Las papas fritas son de las mejores que he probado."
+            },{
+                "idResena": 8,
+                "idUsuario": 8,
+                "fecha": "08/12/2024",
+                "descripcion": "El sándwich clásico estaba fresco, con buen balance de ingredientes."
+            },{
+                "idResena": 9,
+                "idUsuario": 9,
+                "fecha": "09/12/2024",
+                "descripcion": "Las salchipapas tenían mucho sabor y una porción generosa."
+            },{
+                "idResena": 10,
+                "idUsuario": 10,
+                "fecha": "10/12/2024",
+                "descripcion": "El hot dog estaba bien presentado, pero un poco frío."
+            },{
+                "idResena": 11,
+                "idUsuario": 11,
+                "fecha": "11/12/2024",
+                "descripcion": "Las arepas de chócolo son muy recomendadas."
+            },{
+                "idResena": 12,
+                "idUsuario": 12,
+                "fecha": "12/12/2024",
+                "descripcion": "El chicharrón estaba delicioso, pero la porción era pequeña."
+            },{
+                "idResena": 13,
+                "idUsuario": 13,
+                "fecha": "13/12/2024",
+                "descripcion": "El sándwich tenía buen sabor, perfecto para un snack rápido."
+            },{
+                "idResena": 14,
+                "idUsuario": 14,
+                "fecha": "14/12/2024",
+                "descripcion": "Las papas fritas estaban muy saladas, pero bien hechas."
+            },{
+                "idResena": 15,
+                "idUsuario": 15,
+                "fecha": "15/12/2024",
+                "descripcion": "El hot dog estaba sabroso, las salsas le daban buen toque."
+            }
+        ]
+    },{
+        "id_puesto_comida": 2,
+        "nombre" : "Pit Stop Café",
+        "capacidad" : 30,
+        "localizacion" : "Cerca de la Pista Principal",
+        "idMenu": [ 7,8,9,10,11,12],
+        "resenas":[
+            {
+                "idResena":16,
+                "idUsuario": 1,
+                "fecha": "01/12/2024",
+                "descripcion": "El café americano estaba en su punto, perfecto para iniciar el día."
+            },{
+                "idResena": 17,
+                "idUsuario": 2,
+                "fecha": "02/12/2024",
+                "descripcion": "El capuccino tenía un toque dulce ideal, bien preparado."
+            },{
+                "idResena": 18,
+                "idUsuario": 3,
+                "fecha": "03/12/2024",
+                "descripcion": "El té helado estaba refrescante y con buen equilibrio de sabor."
+            },{
+                "idResena": 19,
+                "idUsuario": 1,
+                "fecha": "04/12/2024",
+                "descripcion": "El croissant estaba crujiente y mantequilloso, excelente."
+            },{
+                "idResena": 20,
+                "idUsuario": 4,
+                "fecha": "05/12/2024",
+                "descripcion": "El muffin de chocolate estaba un poco seco, pero con buen sabor."
+            },{
+                "idResena":21,
+                "idUsuario":5,
+                "fecha": "06/12/2024",
+                "descripcion": "El jugo natural tenía buena cantidad y el sabor era agradable."
+            },{
+                "idResena": 22,
+                "idUsuario": 6,
+                "fecha": "07/12/2024",
+                "descripcion": "El café americano es de buena calidad, ideal para acompañar cualquier snack."
+            },{
+                "idResena": 23,
+                "idUsuario": 2,
+                "fecha": "08/12/2024",
+                "descripcion": "El croissant es delicioso, especialmente si se acompaña con café."
+            },{
+                "idResena": 24,
+                "idUsuario": 3,
+                "fecha": "09/12/2024",
+                "descripcion": "El jugo natural estaba frío y con un sabor natural excelente."
+            },{
+                "idResena": 25,
+                "idUsuario": 1,
+                "fecha": "10/12/2024",
+                "descripcion": "El té helado estaba bien servido, pero le faltaba un poco de azúcar."
+            },{
+                "idResena": 26,
+                "idUsuario": 4,
+                "fecha": "11/12/2024",
+                "descripcion": "El muffin es delicioso, aunque sería mejor con un poco más de chocolate."
+            },{
+                "idResena": 27,
+                "idUsuario": 5,
+                "fecha": "12/12/2024",
+                "descripcion": "El capuccino tiene la mezcla perfecta de café y leche."
+            },{
+                "idResena": 28,
+                "idUsuario": 2,
+                "fecha": "13/12/2024",
+                "descripcion": "El café americano es el mejor que he probado aquí."
+            },{
+                "idResena": 29,
+                "idUsuario": 3,
+                "fecha": "14/12/2024",
+                "descripcion": "El croissant es fresco, aunque la porción podría ser más grande."
+            },{
+                "idResena": 30,
+                "idUsuario": 1,
+                "fecha": "15/12/2024",
+                "descripcion": "El té helado fue una gran elección, refrescante y balanceado."
+            }
+        ]
+    },{
+        "id_puesto_comida": 3,
+        "nombre" : "Turbo Burgers",
+        "capacidad" : 25,
+        "localizacion" : "Zona de Descanso",
+        "idMenu": [ 13,14,15,16,17,18],
+        "resenas":[
+            {
+                "idResena": 31,
+                "idUsuario": 7,
+                "fecha": "01/12/2024",
+                "descripcion": "La hamburguesa clásica es deliciosa, con ingredientes frescos."
+            },{
+                "idResena": 32,
+                "idUsuario": 8,
+                "fecha": "02/12/2024",
+                "descripcion": "Las papas a la francesa estaban crujientes, pero un poco saladas."
+            },{
+                "idResena": 33,
+                "idUsuario": 9,
+                "fecha": "03/12/2024",
+                "descripcion": "Las alitas BBQ estaban bien cocidas, pero la salsa era muy dulce."
+            },{
+                "idResena": 34,
+                "idUsuario": 10,
+                "fecha": "04/12/2024",
+                "descripcion": "La hamburguesa de pollo tenía buen sabor, pero le faltaba queso."
+            },{
+                "idResena": 35,
+                "idUsuario": 11,
+                "fecha": "05/12/2024",
+                "descripcion": "Los nuggets de pollo estaban crocantes y bien sazonados."
+            },{
+                "idResena": 36,
+                "idUsuario": 12,
+                "fecha": "06/12/2024",
+                "descripcion": "La hamburguesa BBQ fue una sorpresa agradable, deliciosa."
+            },{
+                "idResena": 37,
+                "idUsuario": 13,
+                "fecha": "07/12/2024",
+                "descripcion": "Las papas a la francesa son muy buenas, siempre calientes y frescas."
+            },{
+                "idResena": 38,
+                "idUsuario": 7,
+                "fecha": "08/12/2024",
+                "descripcion": "La hamburguesa clásica es mi favorita, siempre deliciosa."
+            },{
+                "idResena": 39,
+                "idUsuario": 8,
+                "fecha": "09/12/2024",
+                "descripcion": "Las alitas BBQ estaban bien servidas, pero algo grasosas."
+            },{
+                "idResena": 40,
+                "idUsuario": 9,
+                "fecha": "10/12/2024",
+                "descripcion": "Los nuggets de pollo son un buen snack, las salsas mejoraron mucho la experiencia."
+            },{
+                "idResena": 41,
+                "idUsuario": 10,
+                "fecha": "11/12/2024",
+                "descripcion": "La hamburguesa de pollo estaba perfecta, bien sazonada y con buen tamaño."
+            },{
+                "idResena": 42,
+                "idUsuario": 11,
+                "fecha": "12/12/2024",
+                "descripcion": "La hamburguesa BBQ es la mejor opción aquí, tiene un gran sabor."
+            },{
+                "idResena": 43,
+                "idUsuario": 12,
+                "fecha": "13/12/2024",
+                "descripcion": "Las papas a la francesa son excelentes, especialmente con queso."
+            },{
+                "idResena": 44,
+                "idUsuario": 13,
+                "fecha": "14/12/2024",
+                "descripcion": "La hamburguesa clásica es deliciosa, aunque a veces tarda en salir."
+            },{
+                "idResena": 45,
+                "idUsuario": 7,
+                "fecha": "15/12/2024",
+                "descripcion": "Las alitas BBQ tienen una porción generosa, pero prefiero menos dulce en la salsa."
+            }
+        ]
+    },{
+        "id_puesto_comida": 4,
+        "nombre" : "Velocidad y Sabor",
+        "capacidad" : 15,
+        "localizacion" : "Área de Observación",
+        "idMenu": [ 19,20,21,22,23,24],
+        "resenas":[
+            {
+                "idResena": 46,
+                "idUsuario": 1,
+                "fecha": "01/12/2024",
+                "descripcion": "La empanada de carne tenía un relleno generoso y bien sazonado."
+            },{
+                "idResena": 47,
+                "idUsuario": 2,
+                "fecha": "02/12/2024",
+                "descripcion": "La empanada de pollo estaba bien hecha, pero la masa un poco dura."
+            },{
+                "idResena": 48,
+                "idUsuario": 3,
+                "fecha": "03/12/2024",
+                "descripcion": "La chocolatina estaba deliciosa, un buen dulce para acompañar."
+            },{
+                "idResena": 49,
+                "idUsuario": 4,
+                "fecha": "04/12/2024",
+                "descripcion": "El pastel de pollo tenía un sabor excelente, pero la porción era pequeña."
+            },{
+                "idResena": 50,
+                "idUsuario": 5,
+                "fecha": "05/12/2024",
+                "descripcion": "Las galletas estaban suaves y con buen sabor a chocolate."
+            },{
+                "idResena": 51,
+                "idUsuario": 6,
+                "fecha": "06/12/2024",
+                "descripcion": "El agua embotellada estaba fría y perfecta para refrescarme."
+            },{
+                "idResena": 52,
+                "idUsuario": 7,
+                "fecha": "07/12/2024",
+                "descripcion": "La empanada de carne tenía buen relleno, pero estaba un poco grasosa." 
+            },{
+                "idResena": 53,
+                "idUsuario": 8,
+                "fecha": "08/12/2024",
+                "descripcion": "El pastel de pollo es una opción deliciosa para un snack rápido."
+            },{
+                "idResena": 54,
+                "idUsuario": 9,
+                "fecha": "09/12/2024",
+                "descripcion": "Las galletas estaban recién hechas, crujientes y dulces."
+            },{
+                "idResena": 55,
+                "idUsuario": 10,
+                "fecha": "10/12/2024",
+                "descripcion": "La empanada de pollo estaba deliciosa, con buen balance entre masa y relleno."
+            },{
+                "idResena": 56,
+                "idUsuario": 11,
+                "fecha": "11/12/2024",
+                "descripcion": "La chocolatina es ideal para un antojo rápido, me gustó mucho."
+            },{
+                "idResena": 57,
+                "idUsuario": 12,
+                "fecha": "12/12/2024",
+                "descripcion": "El agua embotellada estaba fría y lista para consumir."
+            },{
+                "idResena": 58,
+                "idUsuario": 13,
+                "fecha": "13/12/2024",
+                "descripcion": "La empanada de carne es excelente, especialmente el relleno."
+            },{
+                "idResena": 59,
+                "idUsuario": 14,
+                "fecha": "14/12/2024",
+                "descripcion": "El pastel de pollo estaba fresco y bien preparado."
+            },{
+                "idResena": 60,
+                "idUsuario": 15,
+                "fecha": "15/12/2024",
+                "descripcion": "Las galletas son deliciosas, con trozos de chocolate perfectos."
+            }
+        ]
+    }
+]

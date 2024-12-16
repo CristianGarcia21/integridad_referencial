@@ -3,6 +3,9 @@ const mongoose = require("mongoose");
 const empleadoXcarroRoutes = require("./routes/empXcarroRoutes");
 const empleadoRoutes = require("./routes/empleadoRoutes");
 const pistaRoutes = require("./routes/pistaRoutes");
+const puestoComida = require("./routes/puestoComida")
+const usuarioRoutes = require("./routes/usuarioRoutes");
+const menuRoutes = require("./routes/menuRoutes");
 
 const app = express();
 app.use(express.json());
@@ -17,6 +20,9 @@ mongoose
 app.use("/api/empleadoXcarro", empleadoXcarroRoutes);
 app.use("/api", empleadoRoutes);
 app.use("/api/pistas", pistaRoutes);
+app.use("/api/puesto", puestoComida),
+app.use("/api", usuarioRoutes);
+app.use("/api", menuRoutes);
 
 // Iniciar servidor
 const PORT = 3000;

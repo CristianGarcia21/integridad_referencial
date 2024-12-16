@@ -1,0 +1,78 @@
+[
+    {
+        "id" : 1,
+        "nombre_implemento" : "Casco",
+        "tipo_implemento" : "Seguridad",
+        "cantidad" : 30
+    },{
+        "id" : 2,
+        "nombre_implemento" : "Chaleco Reflectivo",
+        "tipo_implemento" : "Seguridad",
+        "cantidad" : 30
+    },{
+        "id" : 3,
+        "nombre_implemento":"Guantes Antideslizantes",
+        "tipo_implemento" : "Seguridad",
+        "cantidad":50
+    },{
+        "id":4,
+        "nombre_implemento": "Rodilleras",
+        "tipo_implemento":"Seguridad",
+        "cantidad":30
+    },{
+        "id":5,
+        "nombre_implemento": "Coderas",
+        "tipo_implemento":"Seguridad",
+        "cantidad":30
+    },{
+        "id":6,
+        "nombre_implemento": "Botiquín de Primeros Auxilios",
+        "tipo_implemento": "Seguridad",
+        "cantidad":10
+    },{
+        "id":7,
+        "nombre_implemento": "Protector de Cuello",
+        "tipo_implemento": "Seguridad",
+        "cantidad":30
+    },{
+        "id":8,
+        "nombre_implemento": "Faja de Seguridad",
+        "tipo_implemento": "Seguridad",
+        "cantidad":30
+    },{
+        "id":9,
+        "nombre_implemento": "Lentes de Protección",
+        "tipo_implemento": "Seguridad",
+        "cantidad":30
+    },{
+        "id":10,
+        "nombre_implemento": "Cascos Infantiles",
+        "tipo_implemento": "Seguridad",
+        "cantidad":10
+    },{
+        "id":11,
+        "nombre_implemento": "Cinturones de Seguridad",
+        "tipo_implemento": "Seguridad",
+        "cantidad":30
+    },{
+        "id":12,
+        "nombre_implemento": "Luces LED",
+        "tipo_implemento": "Seguridad",
+        "cantidad":25
+    },{
+        "id":13,
+        "nombre_implemento": "Tapabocas Desechables",
+        "tipo_implemento": "Seguridad",
+        "cantidad":100
+    },{
+        "id":14,
+        "nombre_implemento": "Esponjas de Limpieza",
+        "tipo_implemento": "Seguridad",
+        "cantidad":50
+    },{
+        "id":15,
+        "nombre_implemento": "Protectores Auditivos",
+        "tipo_implemento": "Seguridad",
+        "cantidad":30
+    }
+]

@@ -1,0 +1,147 @@
+[
+    {
+      "_id": 1,
+      "nombre_plato": "Papas Fritas",
+      "ingredientes": "Papas fritas, sal",
+      "valor_unitario": 5000
+    },
+    {
+      "_id": 2,
+      "nombre_plato": "Salchipapas",
+      "ingredientes": "Salchichas, papas fritas, salsas",
+      "valor_unitario": 8000
+    },
+    {
+      "_id": 3,
+      "nombre_plato": "Sándwich Clásico",
+      "ingredientes": "Pan, jamón, queso",
+      "valor_unitario": 7000
+    },
+    {
+      "_id": 4,
+      "nombre_plato": "Hot Dog",
+      "ingredientes": "Pan, salchicha, salsas",
+      "valor_unitario": 6000
+    },
+    {
+      "_id": 5,
+      "nombre_plato": "Arepa de Chócolo",
+      "ingredientes": "Arepa, mantequilla, queso",
+      "valor_unitario": 4500
+    },
+    {
+      "_id": 6,
+      "nombre_plato": "Chicharrón",
+      "ingredientes": "Chicharrón, limón",
+      "valor_unitario": 7000
+    },
+    {
+      "_id": 7,
+      "nombre_plato": "Café Americano",
+      "ingredientes": "Café, azúcar, leche",
+      "valor_unitario": 3000
+    },
+    {
+      "_id": 8,
+      "nombre_plato": "Capuccino",
+      "ingredientes": "Café, leche, canela",
+      "valor_unitario": 4000
+    },
+    {
+      "_id": 9,
+      "nombre_plato": "Té Helado",
+      "ingredientes": "Té, azúcar, limón",
+      "valor_unitario": 5000
+    },
+    {
+      "_id": 10,
+      "nombre_plato": "Croissant",
+      "ingredientes": "Croissant, mantequilla, harina",
+      "valor_unitario": 4000
+    },
+    {
+      "_id": 11,
+      "nombre_plato": "Muffin de Chocolate",
+      "ingredientes": "Chocolate, harina, huevo",
+      "valor_unitario": 5000
+    },
+    {
+      "_id": 12,
+      "nombre_plato": "Jugo Natural",
+      "ingredientes": "Jugo, fruta, agua",
+      "valor_unitario": 4500
+    },
+    {
+      "_id": 13,
+      "nombre_plato": "Hamburguesa Clásica",
+      "ingredientes": "Pan, carne, lechuga, tomate",
+      "valor_unitario": 12000
+    },
+    {
+      "_id": 14,
+      "nombre_plato": "Hamburguesa Pollo",
+      "ingredientes": "Pan, pollo, queso, salsas",
+      "valor_unitario": 13000
+    },
+    {
+      "_id": 15,
+      "nombre_plato": "Hamburguesa BBQ",
+      "ingredientes": "Pan, carne, cebolla, salsa BBQ",
+      "valor_unitario": 14000
+    },
+    {
+      "_id": 16,
+      "nombre_plato": "Papas a la Francesa",
+      "ingredientes": "Papas fritas, sal",
+      "valor_unitario": 5000
+    },
+    {
+      "_id": 17,
+      "nombre_plato": "Nuggets de Pollo",
+      "ingredientes": "Pollo, empanizado",
+      "valor_unitario": 7000
+    },
+    {
+      "_id": 18,
+      "nombre_plato": "Alitas BBQ",
+      "ingredientes": "Alas de pollo, salsa BBQ",
+      "valor_unitario": 15000
+    },
+    {
+      "_id": 19,
+      "nombre_plato": "Empanada de Carne",
+      "ingredientes": "Masa, carne, papa",
+      "valor_unitario": 2500
+    },
+    {
+      "_id": 20,
+      "nombre_plato": "Empanada de Pollo",
+      "ingredientes": "Masa, pollo, papa",
+      "valor_unitario": 3000
+    },
+    {
+      "_id": 21,
+      "nombre_plato": "Chocolatina",
+      "ingredientes": "Chocolate, azúcar",
+      "valor_unitario": 2500
+    },
+    {
+      "_id": 22,
+      "nombre_plato": "Pastel de Pollo",
+      "ingredientes": "Masa, pollo, especias",
+      "valor_unitario": 4000
+    },
+    {
+      "_id": 23,
+      "nombre_plato": "Galletas",
+      "ingredientes": "Harina, chocolate, mantequilla",
+      "valor_unitario": 2000
+    },
+    {
+      "_id": 24,
+      "nombre_plato": "Agua Embotellada",
+      "ingredientes": "Agua purificada",
+      "valor_unitario": 1500
+    }
+]
+    
