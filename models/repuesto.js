@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const repuestoSchema = new mongoose.Schema({
-    idRepuesto: { type: Number, required: true },
+    _id: { type: Number, required: true },
     tipoRepuesto: { type: String, required: true },
     cantidad: { type: Number, required: true },
     precio: { type: Number, required: true }

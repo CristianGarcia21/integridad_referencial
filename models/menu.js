@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const menuSchema = new mongoose.Schema({
-  idMenu: { type: Number, required: true, unique: true },
+  _id: { type: Number, required: true, unique: true },
   nombre_plato: { type: String, required: true },
   ingredientes: { type: String, required: true },
   valor_unitario: { type: Number, required: true }
@@ -10,9 +10,9 @@ const menuSchema = new mongoose.Schema({
 //Actualizar menu en cascada
 menuSchema.pre('findOneAndUpdate', async function (next) {
   const update = this.getUpdate();
-  if (update.idMenu) {
+  if (update._id) {
     await mongoose.model('Menu').updateMany(
-      { idMenu: update.idMenu },
+      { _id: update._id },
       { $set: update }
     );
   }

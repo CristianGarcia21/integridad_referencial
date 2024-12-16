@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const empleadoXcarroSchema = new mongoose.Schema({
-    idEmpxCarro: {
+    _id: {
         type: Number,
         unique: true,
     },
@@ -20,14 +20,14 @@ const empleadoXcarroSchema = new mongoose.Schema({
     },
 });
 
-// Middleware para generar `idEmpxCarro` automáticamente si no se pasa
+// Middleware para generar `_id` automáticamente si no se pasa
 empleadoXcarroSchema.pre("save", async function (next) {
-    if (!this.idEmpxCarro) {
+    if (!this._id) {
         const lastDoc = await mongoose
             .model("EmpleadoXCarro")
             .findOne()
-            .sort({ idEmpxCarro: -1 }); // Obtener el último documento insertado
-        this.idEmpxCarro = lastDoc ? lastDoc.idEmpxCarro + 1 : 1; // Incrementar o iniciar en 1
+            .sort({ _id: -1 }); // Obtener el último documento insertado
+        this._id = lastDoc ? lastDoc._id + 1 : 1; // Incrementar o iniciar en 1
     }
     next();
 });

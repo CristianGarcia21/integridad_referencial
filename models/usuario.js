@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const usuarioSchema = new mongoose.Schema({
-  idUsuario: { type: Number, required: true, unique: true },
+  _id: { type: Number, required: true, unique: true },
   nombre: { type: String, required: true },
   apellido: { type: String, required: true },
   edad: { type: Number, required: true, min: 18 },
@@ -19,10 +19,10 @@ usuarioSchema.pre("save", function (next) {
 // Middleware para garantizar integridad en eliminaciones
 usuarioSchema.pre("findOneAndDelete", async function (next) {
   const PuestoComida = mongoose.model("PuestoComida");
-  const referencia = await PuestoComida.findOne({ "resenas.idUsuario": this.idUsuario });
+  const referencia = await PuestoComida.findOne({ "resenas._id": this._id });
 
   if (referencia) {
-    throw new Error(`No se puede eliminar el usuario ${this.idUsuario} porque está referenciado en reseñas.`);
+    throw new Error(`No se puede eliminar el usuario ${this._id} porque está referenciado en reseñas.`);
   }
 
   next();

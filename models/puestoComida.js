@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const puestoComidaSchema = new mongoose.Schema({
-  idPuestoComida: { type: Number, required: true, unique: true },
+  _id: { type: Number, required: true, unique: true },
   nombre: { type: String, required: true },
   capacidad: { type: Number, required: true },
   localizacion: { type: String, required: true },
@@ -53,7 +53,7 @@ puestoComidaSchema.pre("save", async function (next) {
 // Middleware para actualizar referencias en cascada
 puestoComidaSchema.post("findOneAndUpdate", async function (doc) {
   if (doc) {
-    console.log(`Puesto de comida actualizado: ${doc.idPuestoComida}`);
+    console.log(`Puesto de comida actualizado: ${doc._id}`);
   }
 });
 
@@ -62,7 +62,7 @@ puestoComidaSchema.pre("remove", async function (next) {
   const Menu = mongoose.model("Menu");
 
   // Puedes agregar lógica para eliminar o manejar las dependencias aquí
-  console.log(`Puesto de comida eliminado: ${this.idPuestoComida}`);
+  console.log(`Puesto de comida eliminado: ${this._id}`);
   next();
 });
 

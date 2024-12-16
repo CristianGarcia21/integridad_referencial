@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 // Esquema de Mantenimiento
 const mantenimientoSchema = new Schema({
-    idMantenimiento: {
+    _id: {
         type: Number,
         required: true,
         unique: true

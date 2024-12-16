@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const metodoPagoSchema = new mongoose.Schema({
-    idMetodoPago: { type: Number, required: true },
+    _id: { type: Number, required: true },
     tipoPago: { type: String, required: true }
 });
 

@@ -1,7 +1,7 @@
 const mongose = require('mongoose');
 
 const proveedorSchema = new mongose.Schema({
-    idProveedor: { type: Number, required: true },
+    _id: { type: Number, required: true },
     nombre: { type: String, required: true },
     apellido: { type: String, required: true },
     telefono: { type: String, required: true },
@@ -12,8 +12,8 @@ empleadoSchema.post("findOneAndUpdate", async function (doc) {
     if (doc) {
         const provxrepuesto = mongoose.model("provxrepuesto");
         await provxrepuesto.updateMany(
-            { ced_emp: doc.idProveedor },
-            { $set: { ced_emp: doc.idProveedor } } // Actualizar el campo referenciado si es necesario
+            { ced_emp: doc._id },
+            { $set: { ced_emp: doc._id } } // Actualizar el campo referenciado si es necesario
         );
     }
 });

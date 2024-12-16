@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const pistaSchema = new mongoose.Schema({
-  idPista: { type: Number, required: true, unique: true },
+  _id: { type: Number, required: true, unique: true },
   nombre_pista: { type: String, required: true },
   ubicacion: { type: String, required: true },
   capacidad: { type: Number, required: true },
