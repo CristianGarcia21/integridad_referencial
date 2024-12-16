@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const proveedorController = require('../controllers/proveedorController');
+const controller = require('../controllers/proveedorController');
 
-router.post('/proveedores/cargar-json', proveedorController.cargarProveedorDesdeJSON);
+router.post('/cargar-json', controller.cargarProveedorDesdeJSON);
 
 module.exports = router;
