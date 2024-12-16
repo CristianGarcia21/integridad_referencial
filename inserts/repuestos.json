@@ -1,0 +1,200 @@
+[
+  {
+    "idRepuesto": 1,
+    "tipo_repuesto": "Llanta",
+    "cantidad": 50,
+    "precio": 120000
+  },
+  {
+    "idRepuesto": 2,
+    "tipo_repuesto": "Motor",
+    "cantidad": 10,
+    "precio": 800000
+  },
+  {
+    "idRepuesto": 3,
+    "tipo_repuesto": "Freno",
+    "cantidad": 20,
+    "precio": 50000
+  },
+  {
+    "idRepuesto": 4,
+    "tipo_repuesto": "Volante",
+    "cantidad": 15,
+    "precio": 150000
+  },
+  {
+    "idRepuesto": 5,
+    "tipo_repuesto": "Eje Trasero",
+    "cantidad": 12,
+    "precio": 200000
+  },
+  {
+    "idRepuesto": 6,
+    "tipo_repuesto": "Amortiguador",
+    "cantidad": 20,
+    "precio": 100000
+  },
+  {
+    "idRepuesto": 7,
+    "tipo_repuesto": "Chasis",
+    "cantidad": 5,
+    "precio": 600000
+  },
+  {
+    "idRepuesto": 8,
+    "tipo_repuesto": "Batería",
+    "cantidad": 25,
+    "precio": 140000
+  },
+  {
+    "idRepuesto": 9,
+    "tipo_repuesto": "Cadena",
+    "cantidad": 30,
+    "precio": 40000
+  },
+  {
+    "idRepuesto": 10,
+    "tipo_repuesto": "Filtro Aire",
+    "cantidad": 20,
+    "precio": 30000
+  },
+  {
+    "idRepuesto": 11,
+    "tipo_repuesto": "Escape",
+    "cantidad": 10,
+    "precio": 120000
+  },
+  {
+    "idRepuesto": 12,
+    "tipo_repuesto": "Asfalto",
+    "cantidad": 100,
+    "precio": 500000
+  },
+  {
+    "idRepuesto": 13,
+    "tipo_repuesto": "Cemento",
+    "cantidad": 50,
+    "precio": 35000
+  },
+  {
+    "idRepuesto": 14,
+    "tipo_repuesto": "Pintura",
+    "cantidad": 30,
+    "precio": 45000
+  },
+  {
+    "idRepuesto": 15,
+    "tipo_repuesto": "Conos",
+    "cantidad": 40,
+    "precio": 12000
+  },
+  {
+    "idRepuesto": 16,
+    "tipo_repuesto": "Reflectores",
+    "cantidad": 20,
+    "precio": 25000
+  },
+  {
+    "idRepuesto": 17,
+    "tipo_repuesto": "Guardarrail",
+    "cantidad": 15,
+    "precio": 300000
+  },
+  {
+    "idRepuesto": 18,
+    "tipo_repuesto": "Barreras",
+    "cantidad": 10,
+    "precio": 400000
+  },
+  {
+    "idRepuesto": 19,
+    "tipo_repuesto": "Adhesivo",
+    "cantidad": 25,
+    "precio": 60000
+  },
+  {
+    "idRepuesto": 20,
+    "tipo_repuesto": "Luces LED",
+    "cantidad": 50,
+    "precio": 70000
+  },
+  {
+    "idRepuesto": 21,
+    "tipo_repuesto": "Tornillos",
+    "cantidad": 500,
+    "precio": 500
+  },
+  {
+    "idRepuesto": 22,
+    "tipo_repuesto": "Lubricante",
+    "cantidad": 100,
+    "precio": 12000
+  },
+  {
+    "idRepuesto": 23,
+    "tipo_repuesto": "Herramientas",
+    "cantidad": 20,
+    "precio": 250000
+  },
+  {
+    "idRepuesto": 24,
+    "tipo_repuesto": "Soldadura",
+    "cantidad": 30,
+    "precio": 150000
+  },
+  {
+    "idRepuesto": 25,
+    "tipo_repuesto": "Cable Resistente",
+    "cantidad": 50,
+    "precio": 80000
+  },
+  {
+    "idRepuesto": 26,
+    "tipo_repuesto": "Ruedas Aux",
+    "cantidad": 10,
+    "precio": 50000
+  },
+  {
+    "idRepuesto": 27,
+    "tipo_repuesto": "Placas Metal",
+    "cantidad": 15,
+    "precio": 200000
+  },
+  {
+    "idRepuesto": 28,
+    "tipo_repuesto": "Cinta Ref",
+    "cantidad": 50,
+    "precio": 5000
+  },
+  {
+    "idRepuesto": 29,
+    "tipo_repuesto": "Lijas",
+    "cantidad": 100,
+    "precio": 2000
+  },
+  {
+    "idRepuesto": 30,
+    "tipo_repuesto": "Tuberías",
+    "cantidad": 20,
+    "precio": 180000
+  },
+  {
+    "idRepuesto": 31,
+    "tipo_repuesto": "Soportes",
+    "cantidad": 10,
+    "precio": 250000
+  },
+  {
+    "idRepuesto": 32,
+    "tipo_repuesto": "Correas",
+    "cantidad": 30,
+    "precio": 120000
+  },
+  {
+    "idRepuesto": 33,
+    "tipo_repuesto": "Discos Freno",
+    "cantidad": 25,
+    "precio": 200000
+  }
+]
