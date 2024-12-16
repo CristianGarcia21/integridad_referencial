@@ -1,0 +1,842 @@
+[
+    {
+        "id_factura": 1,
+        "id_sesion": 1,
+        "id_menus": [1],
+        "id_usuario": 1,
+        "id_metodo_pago": 2,
+        "descuento": {
+            "id_descuento": 1,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 2,
+        "id_sesion": null,
+        "id_menu": [7],
+        "id_usuario": null,
+        "id_metodo_pago": 3,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 3,
+        "id_sesion": 2,
+        "id_menu": [],
+        "id_usuario": 2,
+        "id_metodo_pago": 4,
+        "descuento": {
+            "id_descuento": 2,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 4,
+        "id_sesion": 3,
+        "id_menu": [13],
+        "id_usuario": 3,
+        "id_metodo_pago": 6,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 5,
+        "id_sesion": 4,
+        "id_menu": [19],
+        "id_usuario": 4,
+        "id_metodo_pago": 7,
+        "descuento": {
+            "id_descuento": 3,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 6,
+        "id_sesion": null,
+        "id_menu": [2],
+        "id_usuario": null,
+        "id_metodo_pago": 8,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 7,
+        "id_sesion": 5,
+        "id_menu": null,
+        "id_usuario": 5,
+        "id_metodo_pago": 1,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 8,
+        "id_sesion": 6,
+        "id_menu": [8],
+        "id_usuario": 6,
+        "id_metodo_pago": 2,
+        "descuento": {
+            "id_descuento": 4,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 9,
+        "id_sesion": null,
+        "id_menu": [14],
+        "id_usuario": null,
+        "id_metodo_pago": 3,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 10,
+        "id_sesion": 7,
+        "id_menu": [20],
+        "id_usuario": 7,
+        "id_metodo_pago": 4,
+        "descuento": {
+            "id_descuento": 1,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 11,
+        "id_sesion": 8,
+        "id_menu": null,
+        "id_usuario": 8,
+        "id_metodo_pago": 1,
+        "descuento": {
+            "id_descuento": 2,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 12,
+        "id_sesion": 9,
+        "id_menu": [1],
+        "id_usuario": 9,
+        "id_metodo_pago": 2,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 13,
+        "id_sesion": null,
+        "id_menu": [2],
+        "id_usuario": null,
+        "id_metodo_pago": 3,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 14,
+        "id_sesion": 10,
+        "id_menu": [3],
+        "id_usuario": 10,
+        "id_metodo_pago": 4,
+        "descuento": {
+            "id_descuento": 4,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 15,
+        "id_sesion": 11,
+        "id_menu": null,
+        "id_usuario": 11,
+        "id_metodo_pago": 6,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 16,
+        "id_sesion": 12,
+        "id_menu": [4],
+        "id_usuario": 12,
+        "id_metodo_pago": 7,
+        "descuento": {
+            "id_descuento": 3,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 17,
+        "id_sesion": null,
+        "id_menu": [5],
+        "id_usuario": null,
+        "id_metodo_pago": 8,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 18,
+        "id_sesion": 13,
+        "id_menu": [6],
+        "id_usuario": 13,
+        "id_metodo_pago": 1,
+        "descuento": {
+            "id_descuento": 1,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 19,
+        "id_sesion": 14,
+        "id_menu": null,
+        "id_usuario": 14,
+        "id_metodo_pago": 2,
+        "descuento": {
+            "id_descuento": 2,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 20,
+        "id_sesion": 15,
+        "id_menu": [7],
+        "id_usuario": 15,
+        "id_metodo_pago": 3,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 21,
+        "id_sesion": null,
+        "id_menu": [8],
+        "id_usuario": null,
+        "id_metodo_pago": 4,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 22,
+        "id_sesion": 16,
+        "id_menu": [9],
+        "id_usuario": 16,
+        "id_metodo_pago": 5,
+        "descuento": {
+            "id_descuento": 4,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 23,
+        "id_sesion": 17,
+        "id_menu": null,
+        "id_usuario": 17,
+        "id_metodo_pago": 6,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 24,
+        "id_sesion": 18,
+        "id_menu": [10],
+        "id_usuario": 18,
+        "id_metodo_pago": 7,
+        "descuento": {
+            "id_descuento": 3,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 25,
+        "id_sesion": null,
+        "id_menu": [11],
+        "id_usuario": null,
+        "id_metodo_pago": 8,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 26,
+        "id_sesion": 19,
+        "id_menu": [12],
+        "id_usuario": 19,
+        "id_metodo_pago": 1,
+        "descuento": {
+            "id_descuento": 1,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 27,
+        "id_sesion": 20,
+        "id_menu": null,
+        "id_usuario": 20,
+        "id_metodo_pago": 2,
+        "descuento": {
+            "id_descuento": 2,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 28,
+        "id_sesion": 21,
+        "id_menu": [13],
+        "id_usuario": 21,
+        "id_metodo_pago": 3,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 29,
+        "id_sesion": null,
+        "id_menu": [14],
+        "id_usuario": null,
+        "id_metodo_pago": 4,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 30,
+        "id_sesion": 22,
+        "id_menu": [15],
+        "id_usuario": 22,
+        "id_metodo_pago": 5,
+        "descuento": {
+            "id_descuento": 4,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 31,
+        "id_sesion": 23,
+        "id_menu": null,
+        "id_usuario": 23,
+        "id_metodo_pago": 6,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 32,
+        "id_sesion": 24,
+        "id_menu": [16],
+        "id_usuario": 24,
+        "id_metodo_pago": 7,
+        "descuento": {
+            "id_descuento": 3,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 33,
+        "id_sesion": null,
+        "id_menu": [17],
+        "id_usuario": null,
+        "id_metodo_pago": 8,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 34,
+        "id_sesion": 25,
+        "id_menu": [18],
+        "id_usuario": 25,
+        "id_metodo_pago": 1,
+        "descuento": {
+            "id_descuento": 1,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 35,
+        "id_sesion": 51,
+        "id_menu": null,
+        "id_usuario": 1,
+        "id_metodo_pago": 2,
+        "descuento": {
+            "id_descuento": 2,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 36,
+        "id_sesion": 52,
+        "id_menu": [19],
+        "id_usuario": 5,
+        "id_metodo_pago": 3,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 37,
+        "id_sesion": null,
+        "id_menu": [20],
+        "id_usuario": null,
+        "id_metodo_pago": 4,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 38,
+        "id_sesion": 53,
+        "id_menu": [21],
+        "id_usuario": 3,
+        "id_metodo_pago": 5,
+        "descuento": {
+            "id_descuento": 4,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 39,
+        "id_sesion": 54,
+        "id_menu": null,
+        "id_usuario": 7,
+        "id_metodo_pago": 6,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 40,
+        "id_sesion": 55,
+        "id_menu": [22],
+        "id_usuario": 10,
+        "id_metodo_pago": 7,
+        "descuento": {
+            "id_descuento": 3,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 41,
+        "id_sesion": null,
+        "id_menu": [23],
+        "id_usuario": null,
+        "id_metodo_pago": 8,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 42,
+        "id_sesion": 56,
+        "id_menu": [24],
+        "id_usuario": 20,
+        "id_metodo_pago": 1,
+        "descuento": {
+            "id_descuento": 1,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 43,
+        "id_sesion": 57,
+        "id_menu": null,
+        "id_usuario": 18,
+        "id_metodo_pago": 2,
+        "descuento": {
+            "id_descuento": 2,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 44,
+        "id_sesion": 58,
+        "id_menu": [1],
+        "id_usuario": 30,
+        "id_metodo_pago": 3,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 45,
+        "id_sesion": null,
+        "id_menu": [2],
+        "id_usuario": null,
+        "id_metodo_pago": 4,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 46,
+        "id_sesion": 59,
+        "id_menu": [3],
+        "id_usuario": 45,
+        "id_metodo_pago": 5,
+        "descuento": {
+            "id_descuento": 4,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 47,
+        "id_sesion": 60,
+        "id_menu": null,
+        "id_usuario": 35,
+        "id_metodo_pago": 6,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 48,
+        "id_sesion": 61,
+        "id_menu": [4],
+        "id_usuario": 50,
+        "id_metodo_pago": 7,
+        "descuento": {
+            "id_descuento": 3,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 49,
+        "id_sesion": null,
+        "id_menu": [5],
+        "id_usuario": null,
+        "id_metodo_pago": 8,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 50,
+        "id_sesion": 62,
+        "id_menu": [6],
+        "id_usuario": 49,
+        "id_metodo_pago": 1,
+        "descuento": {
+            "id_descuento": 1,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 51,
+        "id_sesion": 63,
+        "id_menu": null,
+        "id_usuario": 15,
+        "id_metodo_pago": 2,
+        "descuento": {
+            "id_descuento": 2,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 52,
+        "id_sesion": 64,
+        "id_menu": [7],
+        "id_usuario": 17,
+        "id_metodo_pago": 3,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 53,
+        "id_sesion": null,
+        "id_menu": [8],
+        "id_usuario": null,
+        "id_metodo_pago": 4,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 54,
+        "id_sesion": 65,
+        "id_menu": [9],
+        "id_usuario": 10,
+        "id_metodo_pago": 5,
+        "descuento": {
+            "id_descuento": 4,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 55,
+        "id_sesion": 66,
+        "id_menu": null,
+        "id_usuario": 14,
+        "id_metodo_pago": 6,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 56,
+        "id_sesion": 67,
+        "id_menu": [10],
+        "id_usuario": 25,
+        "id_metodo_pago": 7,
+        "descuento": {
+            "id_descuento": 3,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 57,
+        "id_sesion": null,
+        "id_menu": [11],
+        "id_usuario": null,
+        "id_metodo_pago": 8,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 58,
+        "id_sesion": 68,
+        "id_menu": [12],
+        "id_usuario": 8,
+        "id_metodo_pago": 1,
+        "descuento": {
+            "id_descuento": 1,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 59,
+        "id_sesion": 69,
+        "id_menu": null,
+        "id_usuario": 9,
+        "id_metodo_pago": 2,
+        "descuento": {
+            "id_descuento": 2,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    },
+    {
+        "id_factura": 60,
+        "id_sesion": 70,
+        "id_menu": [13],
+        "id_usuario": 6,
+        "id_metodo_pago": 3,
+        "descuento": {
+            "id_descuento": null,
+            "porcentaje": null,
+            "descripcion": null,
+            "fecha_inicio": null,
+            "fecha_fin": null
+        }
+    }
+]

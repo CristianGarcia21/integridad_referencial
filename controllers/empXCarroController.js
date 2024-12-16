@@ -3,6 +3,7 @@ const Empleado = require("../models/empleado");
 const Pista = require("../models/pista"); 
 const EmpleadoXCarro = require("../models/empXcarro"); 
 
+
 exports.cargarDesdeJSON = async (req, res) => {
   try {
     const relaciones = req.body;
@@ -90,4 +91,12 @@ exports.crearRelacionEmpleadoXCarro = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
+exports.obtenerEmpXCarro = async (req, res) => {
+    try {
+      const empXCarro = await EmpleadoXCarro.find();
+      res.status(200).json(empXCarro);
+    } catch (error) {
+      res.status(500).json({ error: error.message });
+    }
+  };
 

@@ -1,0 +1,402 @@
+[
+    {
+        "_id": 1,
+        "nombre": "Carlos",
+        "apellido": "Pérez",
+        "edad": 25,
+        "correo": "carlos.perez@example.com",
+        "telefono": "3001234567"
+    },
+    {
+        "_id": 2,
+        "nombre": "María",
+        "apellido": "Gómez",
+        "edad": 30,
+        "correo": "maria.gomez@example.com",
+        "telefono": "3002345678"
+    },
+    {
+        "_id": 3,
+        "nombre": "Luis",
+        "apellido": "Ramírez",
+        "edad": 22,
+        "correo": "luis.ramirez@example.com",
+        "telefono": "3003456789"
+    },
+    {
+        "_id": 4,
+        "nombre": "Ana",
+        "apellido": "Hernández",
+        "edad": 28,
+        "correo": "ana.hernandez@example.com",
+        "telefono": "3004567890"
+    },
+    {
+        "_id": 5,
+        "nombre": "Jorge",
+        "apellido": "Torres",
+        "edad": 35,
+        "correo": "jorge.torres@example.com",
+        "telefono": "3005678901"
+    },
+    {
+        "_id": 6,
+        "nombre": "Sofía",
+        "apellido": "Martínez",
+        "edad": 19,
+        "correo": "sofia.martinez@example.com",
+        "telefono": "3006789012"
+    },
+    {
+        "_id": 7,
+        "nombre": "Diego",
+        "apellido": "Rojas",
+        "edad": 24,
+        "correo": "diego.rojas@example.com",
+        "telefono": "3007890123"
+    },
+    {
+        "_id": 8,
+        "nombre": "Laura",
+        "apellido": "López",
+        "edad": 26,
+        "correo": "laura.lopez@example.com",
+        "telefono": "3008901234"
+    },
+    {
+        "_id": 9,
+        "nombre": "Miguel",
+        "apellido": "García",
+        "edad": 29,
+        "correo": "miguel.garcia@example.com",
+        "telefono": "3011234567"
+    },
+    {
+        "_id": 10,
+        "nombre": "Patricia",
+        "apellido": "Mendoza",
+        "edad": 33,
+        "correo": "patricia.mendoza@example.com",
+        "telefono": "3012345678"
+    },
+    {
+        "_id": 11,
+        "nombre": "Ricardo",
+        "apellido": "Vega",
+        "edad": 27,
+        "correo": "ricardo.vega@example.com",
+        "telefono": "3013456789"
+    },
+    {
+        "_id": 12,
+        "nombre": "Lucía",
+        "apellido": "Castro",
+        "edad": 20,
+        "correo": "lucia.castro@example.com",
+        "telefono": "3014567890"
+    },
+    {
+        "_id": 13,
+        "nombre": "Andrés",
+        "apellido": "Morales",
+        "edad": 31,
+        "correo": "andres.morales@example.com",
+        "telefono": "3015678901"
+    },
+    {
+        "_id": 14,
+        "nombre": "Claudia",
+        "apellido": "Guerrero",
+        "edad": 18,
+        "correo": "claudia.guerrero@example.com",
+        "telefono": "3016789012"
+    },
+    {
+        "_id": 15,
+        "nombre": "Hugo",
+        "apellido": "Pineda",
+        "edad": 34,
+        "correo": "hugo.pineda@example.com",
+        "telefono": "3017890123"
+    },
+    {
+        "_id": 16,
+        "nombre": "Mónica",
+        "apellido": "Ortega",
+        "edad": 23,
+        "correo": "monica.ortega@example.com",
+        "telefono": "3018901234"
+    },
+    {
+        "_id": 17,
+        "nombre": "Samuel",
+        "apellido": "Ramos",
+        "edad": 32,
+        "correo": "samuel.ramos@example.com",
+        "telefono": "3021234567"
+    },
+    {
+        "_id": 18,
+        "nombre": "Camila",
+        "apellido": "Jiménez",
+        "edad": 21,
+        "correo": "camila.jimenez@example.com",
+        "telefono": "3022345678"
+    },
+    {
+        "_id": 19,
+        "nombre": "Pablo",
+        "apellido": "Guzmán",
+        "edad": 28,
+        "correo": "pablo.guzman@example.com",
+        "telefono": "3023456789"
+    },
+    {
+        "_id": 20,
+        "nombre": "Valeria",
+        "apellido": "Esquivel",
+        "edad": 36,
+        "correo": "valeria.esquivel@example.com",
+        "telefono": "3024567890"
+    },
+    {
+        "_id": 21,
+        "nombre": "Sebastián",
+        "apellido": "Navarro",
+        "edad": 22,
+        "correo": "sebastian.navarro@example.com",
+        "telefono": "3025678901"
+    },
+    {
+        "_id": 22,
+        "nombre": "Isabel",
+        "apellido": "Campos",
+        "edad": 30,
+        "correo": "isabel.campos@example.com",
+        "telefono": "3026789012"
+    },
+    {
+        "_id": 23,
+        "nombre": "Eduardo",
+        "apellido": "Lara",
+        "edad": 26,
+        "correo": "eduardo.lara@example.com",
+        "telefono": "3027890123"
+    },
+    {
+        "_id": 24,
+        "nombre": "Adriana",
+        "apellido": "Flores",
+        "edad": 25,
+        "correo": "adriana.flores@example.com",
+        "telefono": "3028901234"
+    },
+    {
+        "_id": 25,
+        "nombre": "Javier",
+        "apellido": "Ibáñez",
+        "edad": 29,
+        "correo": "javier.ibanez@example.com",
+        "telefono": "3031234567"
+    },
+    {
+        "_id": 26,
+        "nombre": "Natalia",
+        "apellido": "Cortés",
+        "edad": 19,
+        "correo": "natalia.cortes@example.com",
+        "telefono": "3032345678"
+    },
+    {
+        "_id": 27,
+        "nombre": "Oscar",
+        "apellido": "Muñoz",
+        "edad": 31,
+        "correo": "oscar.munoz@example.com",
+        "telefono": "3033456789"
+    },
+    {
+        "_id": 28,
+        "nombre": "Carolina",
+        "apellido": "Serrano",
+        "edad": 27,
+        "correo": "carolina.serrano@example.com",
+        "telefono": "3034567890"
+    },
+    {
+        "_id": 29,
+        "nombre": "Tomás",
+        "apellido": "Peña",
+        "edad": 24,
+        "correo": "tomas.pena@example.com",
+        "telefono": "3035678901"
+    },
+    {
+        "_id": 30,
+        "nombre": "Paula",
+        "apellido": "Zapata",
+        "edad": 20,
+        "correo": "paula.zapata@example.com",
+        "telefono": "3036789012"
+    },
+    {
+        "_id": 31,
+        "nombre": "Victor",
+        "apellido": "Quintero",
+        "edad": 33,
+        "correo": "victor.quintero@example.com",
+        "telefono": "3037890123"
+    },
+    {
+        "_id": 32,
+        "nombre": "Alejandra",
+        "apellido": "Mejía",
+        "edad": 18,
+        "correo": "alejandra.mejia@example.com",
+        "telefono": "3038901234"
+    },
+    {
+        "_id": 33,
+        "nombre": "Francisco",
+        "apellido": "Padilla",
+        "edad": 35,
+        "correo": "francisco.padilla@example.com",
+        "telefono": "3041234567"
+    },
+    {
+        "_id": 34,
+        "nombre": "Fernanda",
+        "apellido": "Maldonado",
+        "edad": 19,
+        "correo": "fernanda.maldonado@example.com",
+        "telefono": "3042345678"
+    },
+    {
+        "_id": 35,
+        "nombre": "Santiago",
+        "apellido": "Villa",
+        "edad": 21,
+        "correo": "santiago.villa@example.com",
+        "telefono": "3043456789"
+    },
+    {
+        "_id": 36,
+        "nombre": "Andrea",
+        "apellido": "Delgado",
+        "edad": 22,
+        "correo": "andrea.delgado@example.com",
+        "telefono": "3044567890"
+    },
+    {
+        "_id": 37,
+        "nombre": "Rodrigo",
+        "apellido": "Ávila",
+        "edad": 28,
+        "correo": "rodrigo.avila@example.com",
+        "telefono": "3045678901"
+    },
+    {
+        "_id": 38,
+        "nombre": "Liliana",
+        "apellido": "Acosta",
+        "edad": 23,
+        "correo": "liliana.acosta@example.com",
+        "telefono": "3046789012"
+    },
+    {
+        "_id": 39,
+        "nombre": "Manuel",
+        "apellido": "Blanco",
+        "edad": 29,
+        "correo": "manuel.blanco@example.com",
+        "telefono": "3047890123"
+    },
+    {
+        "_id": 40,
+        "nombre": "Marcela",
+        "apellido": "Pacheco",
+        "edad": 30,
+        "correo": "marcela.pacheco@example.com",
+        "telefono": "3048901234"
+    },
+    {
+        "_id": 41,
+        "nombre": "Fabián",
+        "apellido": "Zamora",
+        "edad": 24,
+        "correo": "fabian.zamora@example.com",
+        "telefono": "3051234567"
+    },
+    {
+        "_id": 42,
+        "nombre": "Clara",
+        "apellido": "Núñez",
+        "edad": 26,
+        "correo": "clara.nunez@example.com",
+        "telefono": "3052345678"
+    },
+    {
+        "_id": 43,
+        "nombre": "Mario",
+        "apellido": "Escobar",
+        "edad": 22,
+        "correo": "mario.escobar@example.com",
+        "telefono": "3053456789"
+    },
+    {
+        "_id": 44,
+        "nombre": "Beatriz",
+        "apellido": "Gallardo",
+        "edad": 21,
+        "correo": "beatriz.gallardo@example.com",
+        "telefono": "3054567890"
+    },
+    {
+        "_id": 45,
+        "nombre": "Armando",
+        "apellido": "Velásquez",
+        "edad": 27,
+        "correo": "armando.velasquez@example.com",
+        "telefono": "3055678901"
+    },
+    {
+        "_id": 46,
+        "nombre": "Cristina",
+        "apellido": "Montoya",
+        "edad": 20,
+        "correo": "cristina.montoya@example.com",
+        "telefono": "3056789012"
+    },
+    {
+        "_id": 47,
+        "nombre": "Julio",
+        "apellido": "González",
+        "edad": 25,
+        "correo": "julio.gonzalez@example.com",
+        "telefono": "3057890123"
+    },
+    {
+        "_id": 48,
+        "nombre": "Gloria",
+        "apellido": "Rangel",
+        "edad": 31,
+        "correo": "gloria.rangel@example.com",
+        "telefono": "3058901234"
+    },
+    {
+        "_id": 49,
+        "nombre": "Raúl",
+        "apellido": "Carvajal",
+        "edad": 36,
+        "correo": "raul.carvajal@example.com",
+        "telefono": "3061234567"
+    },
+    {
+        "_id": 50,
+        "nombre": "Diana",
+        "apellido": "Saavedra",
+        "edad": 18,
+        "correo": "diana.saavedra@example.com",
+        "telefono": "3062345678"
+    }
+]
