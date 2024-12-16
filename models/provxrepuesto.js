@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const provXrepuestoSchema = new mongoose.Schema({
+const provxrepuestoSchema = new mongoose.Schema({
     _id: {
         type: Number,
         unique: true,
@@ -18,11 +18,11 @@ const provXrepuestoSchema = new mongoose.Schema({
     fecha: {
         type: Date,
         default: Date.now,
-    },
+    }
 });
 
 // Middleware para generar `_id` automáticamente si no se pasa
-empleadoXcarroSchema.pre("save", async function (next) {
+provxrepuestoSchema.pre("save", async function (next) {
     if (!this._id) {
         const lastDoc = await mongoose
             .model("provxrepuesto")
@@ -35,4 +35,4 @@ empleadoXcarroSchema.pre("save", async function (next) {
 
 
 
-module.exports = mongoose.model("provxrepuesto", provXrepuestoSchemaa, "provxrepuestos");
+module.exports = mongoose.model("provxrepuesto", provxrepuestoSchema, "provxrepuesto");

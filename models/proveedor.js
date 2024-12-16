@@ -8,7 +8,7 @@ const proveedorSchema = new mongose.Schema({
 });
 
 // Middleware para actualizaciones en cascada
-empleadoSchema.post("findOneAndUpdate", async function (doc) {
+proveedorSchema.post("findOneAndUpdate", async function (doc) {
     if (doc) {
         const provxrepuesto = mongoose.model("provxrepuesto");
         await provxrepuesto.updateMany(

@@ -13,22 +13,22 @@ exports.cargarRepuestoDesdeJSON = async (req, res) => {
 
         for (const repuesto of repuestos) {
             try {
-                const { idRepuesto, tipo_repuesto, cantidad, precio } = repuesto;
+                const { _id, idRepuesto, tipo_repuesto, cantidad, precio } = repuesto;
 
-                if (!idRepuesto || !tipo_repuesto || !cantidad || !precio) {
-                    throw new Error(`Faltan campos obligatorios para el repuesto con ID ${idRepuesto || "desconocido"}.`);
+                if (!_id || !idRepuesto|| !tipo_repuesto || !cantidad || !precio) {
+                    throw new Error(`Faltan campos obligatorios para el repuesto con ID ${_id || "desconocido"}.`);
                 }
 
                 //Verificar si el repuesto ya existe
-                const repuestoExistente = await Repuesto.findById(idRepuesto);
+                const repuestoExistente = await Repuesto.findById(_id);
                 if (repuestoExistente) {
-                    throw new Error(`El repuesto con ID ${idRepuesto} ya existe.`);
+                    throw new Error(`El repuesto con ID ${_id} ya existe.`);
                 }
 
                 //Crear e insertar el nuevo repuesto
-                const nuevoRepuesto = new Repuesto({ idRepuesto, tipo_repuesto, cantidad, precio });
+                const nuevoRepuesto = new Repuesto({ _id, idRepuesto, tipo_repuesto, cantidad, precio });
                 await nuevoRepuesto.save();
-                exitos.push(`Repuesto con ID ${idRepuesto} creado correctamente.`);
+                exitos.push(`Repuesto con ID ${_id} creado correctamente.`);
             } catch (error) {
                 errores.push(error.message);
             }
