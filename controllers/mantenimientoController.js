@@ -1,7 +1,5 @@
 const Mantenimiento = require("../models/mantenimiento");
-const Empleado = require("../models/empleado");
 const Pista = require("../models/pista");
-const CarroEmer = require("../models/carroEmer");
 const Repuesto = require("../models/repuesto");
 
 exports.cargarDesdeJSON = async (req, res) => {
@@ -19,16 +17,15 @@ exports.cargarDesdeJSON = async (req, res) => {
             try {
                 const { idMantenimiento, descripcion, idKart, idPista, idCarroEmer, idRepuestos } = mantenimiento;
 
-                // Validar existencia de pista
+                // Validar existencia de pista y carro de emergencia embebido
                 const pista = await Pista.findById(idPista);
                 if (!pista) {
                     throw new Error(`La pista con ID ${idPista} no existe.`);
                 }
 
-                // Validar existencia de carro de emergencia
-                const carroEmer = await CarroEmer.findById(idCarroEmer);
-                if (!carroEmer) {
-                    throw new Error(`El carro de emergencia con ID ${idCarroEmer} no existe.`);
+                const carroEmerExists = pista.carroEmergencia.some(carro => carro.idCarroEmer === idCarroEmer);
+                if (!carroEmerExists) {
+                    throw new Error(`El carro de emergencia con ID ${idCarroEmer} no existe en la pista con ID ${idPista}.`);
                 }
 
                 // Validar existencia de repuestos
@@ -56,16 +53,15 @@ exports.crearMantenimiento = async (req, res) => {
     try {
         const { idMantenimiento, descripcion, idKart, idPista, idCarroEmer, idRepuestos } = req.body;
 
-        // Validar existencia de pista
+        // Validar existencia de pista y carro de emergencia embebido
         const pista = await Pista.findById(idPista);
         if (!pista) {
             return res.status(404).json({ error: `La pista con ID ${idPista} no existe.` });
         }
 
-        // Validar existencia de carro de emergencia
-        const carroEmer = await CarroEmer.findById(idCarroEmer);
-        if (!carroEmer) {
-            return res.status(404).json({ error: `El carro de emergencia con ID ${idCarroEmer} no existe.` });
+        const carroEmerExists = pista.carroEmergencia.some(carro => carro.idCarroEmer === idCarroEmer);
+        if (!carroEmerExists) {
+            return res.status(404).json({ error: `El carro de emergencia con ID ${idCarroEmer} no existe en la pista con ID ${idPista}.` });
         }
 
         // Validar existencia de repuestos
