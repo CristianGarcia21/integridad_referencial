@@ -12,6 +12,7 @@ const empXMantenimientoRoutes = require("./routes/empXmantenimientoRoutes");
 const proveedorRoutes = require("./routes/proveedorRoutes");
 const repuestoRoutes = require("./routes/repuestoRoutes");
 const provXrepuestoRoutes = require("./routes/provXrepuestoRoutes");
+const metodoPagoRoutes = require("./routes/metodoPagoRoutes");
 
 const app = express();
 app.use(express.json());
@@ -31,7 +32,7 @@ app.use("/api/puestoComida", puestoComida),
 app.use("/api/menus", menuRoutes);
 app.use("/api/mantenimientos", mantenimientoRoutes);
 app.use('/api/empXMantenimientos', empXMantenimientoRoutes);
-// app.use('/api/metodosPago', metodoPagoRoutes);
+app.use('/api/metodosPago', metodoPagoRoutes);
 
 app.use('/api/proveedores', proveedorRoutes);
 app.use('/api/repuestos', repuestoRoutes);

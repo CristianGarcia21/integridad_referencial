@@ -15,22 +15,22 @@ exports.cargarMetodosPagoDesdeJSON = async (req, res) => {
 
         for (const metodoPago of metodosPago) {
             try {
-                const { id_metodo_pago, tipo_pago } = metodoPago;
+                const { _id, tipoPago } = metodoPago;
 
-               if (!id_metodo_pago || !tipo_pago) {
-                   throw new Error(`Faltan campos obligatorios para el método de pago con ID ${id_metodo_pago || "desconocido"}.`);
+               if (!_id || !tipoPago) {
+                   throw new Error(`Faltan campos obligatorios para el método de pago con ID ${_id || "desconocido"}.`);
                }
 
                // Verificar si el método de pago ya existe
-                const metodoPagoExistente = await MetodoPago.findById(id_metodo_pago);
+                const metodoPagoExistente = await MetodoPago.findById(_id);
                 if (metodoPagoExistente) {
-                    throw new Error(`El método de pago con ID ${id_metodo_pago} ya existe.`);
+                    throw new Error(`El método de pago con ID ${_id} ya existe.`);
                 }
 
                 // Crear e insertar el nuevo método de pago
-                const nuevoMetodoPago = new MetodoPago({ id_metodo_pago, tipo_pago });
+                const nuevoMetodoPago = new MetodoPago({ _id, tipoPago });
                 await nuevoMetodoPago.save();
-                exitos.push(`Método de pago con ID ${id_metodo_pago} creado correctamente.`);
+                exitos.push(`Método de pago con ID ${_id} creado correctamente.`);
 
             } catch (error) {
                 errores.push(error.message);
