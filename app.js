@@ -6,8 +6,8 @@ const pistaRoutes = require("./routes/pistaRoutes");
 const puestoComida = require("./routes/puestoComida");
 const usuarioRoutes = require("./routes/usuarioRoutes");
 const menuRoutes = require("./routes/menuRoutes");
-//const mantenimiento = require("./models/mantenimiento");
-const implementoRoutes = require("./routes/implementosRoutes");
+const mantenimientoRoutes = require("./routes/mantenimientoRoutes");
+const empXMantenimientoRoutes = require("./routes/empXmantenimientoRoutes");
 
 const app = express();
 app.use(express.json());
@@ -25,11 +25,9 @@ app.use("/api/pistas", pistaRoutes);
 app.use("/api/puestoComida", puestoComida),
   app.use("/api/usuarios", usuarioRoutes);
 app.use("/api/menus", menuRoutes);
-//app.use("/api/mantenimientos", mantenimientosRoutes);
-//app.use('/api/empXMantenimientos', empXMantenimientoRoutes);
-//app.use('/api/repuestos', repuestoRoutes);
-//app.use('/api/metodosPago', metodoPagoRoutes);
-app.use('/api/implementos', implementoRoutes);
+app.use("/api/mantenimientos", mantenimientoRoutes);
+app.use('/api/empXMantenimientos', empXMantenimientoRoutes);
+// app.use('/api/metodosPago', metodoPagoRoutes);
 
 
 module.exports = app;

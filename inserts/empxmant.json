@@ -1,0 +1,252 @@
+[
+    {
+        "id_empxmanteniemiento": 1,
+        "ced_emp": 100000006,
+        "id_mantenimiento": 1
+    },
+    {
+        "id_empxmanteniemiento": 2,
+        "ced_emp": 100000006,
+        "id_mantenimiento": 2
+    },
+    {
+        "id_empxmanteniemiento": 3,
+        "ced_emp": 100000007,
+        "id_mantenimiento": 3
+    },
+    {
+        "id_empxmanteniemiento": 4,
+        "ced_emp": 100000007,
+        "id_mantenimiento": 4
+    },
+    {
+        "id_empxmanteniemiento": 5,
+        "ced_emp": 100000008,
+        "id_mantenimiento": 5
+    },
+    {
+        "id_empxmanteniemiento": 6,
+        "ced_emp": 100000008,
+        "id_mantenimiento": 6
+    },
+    {
+        "id_empxmanteniemiento": 7,
+        "ced_emp": 100000009,
+        "id_mantenimiento": 7
+    },
+    {
+        "id_empxmanteniemiento": 8,
+        "ced_emp": 100000009,
+        "id_mantenimiento": 8
+    },
+    {
+        "id_empxmanteniemiento": 9,
+        "ced_emp": 100000010,
+        "id_mantenimiento": 9
+    },
+    {
+        "id_empxmanteniemiento": 10,
+        "ced_emp": 100000010,
+        "id_mantenimiento": 10
+    },
+    {
+        "id_empxmanteniemiento": 11,
+        "ced_emp": 100000011,
+        "id_mantenimiento": 25
+    },
+    {
+        "id_empxmanteniemiento": 12,
+        "ced_emp": 100000011,
+        "id_mantenimiento": 26
+    },
+    {
+        "id_empxmanteniemiento": 13,
+        "ced_emp": 100000012,
+        "id_mantenimiento": 27
+    },
+    {
+        "id_empxmanteniemiento": 14,
+        "ced_emp": 100000012,
+        "id_mantenimiento": 28
+    },
+    {
+        "id_empxmanteniemiento": 15,
+        "ced_emp": 100000006,
+        "id_mantenimiento": 11
+    },
+    {
+        "id_empxmanteniemiento": 16,
+        "ced_emp": 100000007,
+        "id_mantenimiento": 12
+    },
+    {
+        "id_empxmanteniemiento": 17,
+        "ced_emp": 100000008,
+        "id_mantenimiento": 13
+    },
+    {
+        "id_empxmanteniemiento": 18,
+        "ced_emp": 100000009,
+        "id_mantenimiento": 14
+    },
+    {
+        "id_empxmanteniemiento": 19,
+        "ced_emp": 100000010,
+        "id_mantenimiento": 15
+    },
+    {
+        "id_empxmanteniemiento": 20,
+        "ced_emp": 100000011,
+        "id_mantenimiento": 31
+    },
+    {
+        "id_empxmanteniemiento": 21,
+        "ced_emp": 100000012,
+        "id_mantenimiento": 32
+    },
+    {
+        "id_empxmanteniemiento": 22,
+        "ced_emp": 100000012,
+        "id_mantenimiento": 33
+    },
+    {
+        "id_empxmanteniemiento": 23,
+        "ced_emp": 100000006,
+        "id_mantenimiento": 37
+    },
+    {
+        "id_empxmanteniemiento": 24,
+        "ced_emp": 100000007,
+        "id_mantenimiento": 38
+    },
+    {
+        "id_empxmanteniemiento": 25,
+        "ced_emp": 100000008,
+        "id_mantenimiento": 39
+    },
+    {
+        "id_empxmanteniemiento": 26,
+        "ced_emp": 100000009,
+        "id_mantenimiento": 40
+    },
+    {
+        "id_empxmanteniemiento": 27,
+        "ced_emp": 100000010,
+        "id_mantenimiento": 41
+    },
+    {
+        "id_empxmanteniemiento": 28,
+        "ced_emp": 100000011,
+        "id_mantenimiento": 42
+    },
+    {
+        "id_empxmanteniemiento": 29,
+        "ced_emp": 100000012,
+        "id_mantenimiento": 43
+    },
+    {
+        "id_empxmanteniemiento": 30,
+        "ced_emp": 100000006,
+        "id_mantenimiento": 44
+    },
+    {
+        "id_empxmanteniemiento": 31,
+        "ced_emp": 100000007,
+        "id_mantenimiento": 45
+    },
+    {
+        "id_empxmanteniemiento": 32,
+        "ced_emp": 100000008,
+        "id_mantenimiento": 46
+    },
+    {
+        "id_empxmanteniemiento": 33,
+        "ced_emp": 100000006,
+        "id_mantenimiento": 15
+    },
+    {
+        "id_empxmanteniemiento": 34,
+        "ced_emp": 100000009,
+        "id_mantenimiento": 47
+    },
+    {
+        "id_empxmanteniemiento": 35,
+        "ced_emp": 100000012,
+        "id_mantenimiento": 48
+    },
+    {
+        "id_empxmanteniemiento": 36,
+        "ced_emp": 100000010,
+        "id_mantenimiento": 49
+    },
+    {
+        "id_empxmanteniemiento": 37,
+        "ced_emp": 100000011,
+        "id_mantenimiento": 50
+    },
+    {
+        "id_empxmanteniemiento": 38,
+        "ced_emp": 100000006,
+        "id_mantenimiento": 35
+    },
+    {
+        "id_empxmanteniemiento": 39,
+        "ced_emp": 100000012,
+        "id_mantenimiento": 36
+    },
+    {
+        "id_empxmanteniemiento": 40,
+        "ced_emp": 100000007,
+        "id_mantenimiento": 33
+    },
+    {
+        "id_empxmanteniemiento": 41,
+        "ced_emp": 100000008,
+        "id_mantenimiento": 37
+    },
+    {
+        "id_empxmanteniemiento": 42,
+        "ced_emp": 100000009,
+        "id_mantenimiento": 38
+    },
+    {
+        "id_empxmanteniemiento": 43,
+        "ced_emp": 100000010,
+        "id_mantenimiento": 39
+    },
+    {
+        "id_empxmanteniemiento": 44,
+        "ced_emp": 100000011,
+        "id_mantenimiento": 40
+    },
+    {
+        "id_empxmanteniemiento": 45,
+        "ced_emp": 100000012,
+        "id_mantenimiento": 41
+    },
+    {
+        "id_empxmanteniemiento": 46,
+        "ced_emp": 100000006,
+        "id_mantenimiento": 42
+    },
+    {
+        "id_empxmanteniemiento": 47,
+        "ced_emp": 100000007,
+        "id_mantenimiento": 43
+    },
+    {
+        "id_empxmanteniemiento": 48,
+        "ced_emp": 100000008,
+        "id_mantenimiento": 44
+    },
+    {
+        "id_empxmanteniemiento": 49,
+        "ced_emp": 100000009,
+        "id_mantenimiento": 45
+    },
+    {
+        "id_empxmanteniemiento": 50,
+        "ced_emp": 100000010,
+        "id_mantenimiento": 46
+    }
+]
