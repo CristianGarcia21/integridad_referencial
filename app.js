@@ -13,11 +13,7 @@ app.use(express.json());
 
 // Conectar a MongoDB
 mongoose
-  // .connect("mongodb://localhost:27017/zona_karting", { useNewUrlParser: true, useUnifiedTopology: true })
-  .connect(
-    "mongodb+srv://jgarciarf2-U:oTsxTRSHIQzyT60Q@bases1.87eys.mongodb.net/",
-    { useNewUrlParser: true, useUnifiedTopology: true }
-  )
+  .connect("mongodb://localhost:27017/zona_karting", { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log("Conectado a MongoDB"))
   .catch((err) => console.error("Error al conectar a MongoDB:", err));
 
