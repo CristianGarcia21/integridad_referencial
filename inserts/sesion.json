@@ -1,0 +1,785 @@
+[
+    {
+        "_id" : 1,
+        "idPista": 1,
+        "id_usuario" : [1],
+        "hora_inicio" : "09:00",
+        "hora_fin" : "10:00",
+        "fecha" : "01/11/2024",
+        "ced_empleado" : 100000020,
+        "id_kart":1,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 1,
+                "id_usuario" : 1,
+                "ced_empleado": 100000013,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+       "_id":2,
+       "idPista": 2,
+       "id_usuario" : [2],
+        "hora_inicio" : "09:30",
+        "hora_fin" : "10:00",
+        "fecha" : "02/11/2024",
+        "ced_empleado":100000020,
+        "id_kart":2,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 2,
+                "id_usuario" : 2,
+                "ced_empleado": 100000013,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":3,
+        "idPista": 3,
+        "id_usuario" : [3],
+        "hora_inicio" : "10:00",
+        "hora_fin" : "10:30",
+        "fecha" : "03/11/2024",
+        "ced_empleado":100000022,
+        "id_kart":3,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 3,
+                "id_usuario" : 3,
+                "ced_empleado": 100000013,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":4,
+        "idPista": 1,
+        "id_usuario" : [4],
+        "hora_inicio" : "10:30",
+        "hora_fin" : "11:00",
+        "fecha" : "04/11/2024",
+        "ced_empleado":100000020,
+        "id_kart":4,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 1,
+                "id_usuario" : 4,
+                "ced_empleado": 100000013,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":5,
+        "idPista": 2,
+        "id_usuario" : [5],
+        "hora_inicio" : "11:00",
+        "hora_fin" : "11:30",
+        "fecha" : "05/11/2024",
+        "ced_empleado":100000021,
+        "id_kart":5,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 4,
+                "id_usuario" : 5,
+                "ced_empleado": 100000014,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":6,
+        "idPista": 3,
+        "id_usuario" : [6],
+        "hora_inicio" : "11:30",
+        "hora_fin" : "12:00",
+        "fecha" : "06/11/2024",
+        "ced_empleado":100000022,
+        "id_kart":6,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 5,
+                "id_usuario" : 6,
+                "ced_empleado": 100000014,
+                "estado": "En Uso" 
+            }
+        ]
+    },{
+        "_id":7,
+        "idPista": 1,
+        "id_usuario" : [7],
+        "hora_inicio" : "12:00",
+        "hora_fin" : "12:30",
+        "fecha" : "01/12/2024",
+        "ced_empleado":100000020,
+        "id_kart":7,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 6,
+                "id_usuario" : 7,
+                "ced_empleado": 100000015,
+                "estado": "Devuelto" 
+            }
+        ]
+    },{
+        "_id":8,
+        "idPista": 2,
+        "id_usuario" : [8],
+        "hora_inicio" : "12:30",
+        "hora_fin" : "13:00",
+        "fecha" : "02/12/2024",
+        "ced_empleado":100000021,
+        "id_kart":8,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 7,
+                "id_usuario" : 8,
+                "ced_empleado": 100000015,
+                "estado": "Devuelto" 
+            }
+        ]
+    },{
+        "_id":9,
+        "idPista": 3,
+        "id_usuario" : [9],
+        "hora_inicio" : "13:00",
+        "hora_fin" : "13:30",
+        "fecha" : "03/12/2024",
+        "ced_empleado":100000022,
+        "id_kart":9,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 8,
+                "id_usuario" : 9,
+                "ced_empleado": 100000016,
+                "estado": "Devuelto" 
+            }
+        ]
+    },{
+        "_id":10,
+        "idPista": 1,
+        "id_usuario" : [10],
+        "hora_inicio" : "13:30",
+        "hora_fin" : "14:00",
+        "fecha" : "04/12/2024",
+        "ced_empleado":100000020,
+        "id_kart":10,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 9,
+                "id_usuario" : 10,
+                "ced_empleado": 100000015,
+                "estado": "Devuelto" 
+            }
+        ]
+    },{
+        "_id":11,
+        "idPista": 2,
+        "id_usuario" : [11],
+        "hora_inicio" : "14:00",
+        "hora_fin" : "14:30",
+        "fecha" : "05/12/2024",
+        "ced_empleado":100000021,
+        "id_kart":11,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 10,
+                "id_usuario" : 11,
+                "ced_empleado": 100000015,
+                "estado": "En Uso"
+            }
+        ]
+    },{
+        "_id":12,
+        "idPista": 3,
+        "id_usuario" : [12],
+        "hora_inicio" : "14:30",
+        "hora_fin" : "15:00",
+        "fecha" : "06/12/2024",
+        "ced_empleado":100000022,
+        "id_kart":12,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 2,
+                "id_usuario" : 12,
+                "ced_empleado": 100000014,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":12,
+        "idPista": 3,
+        "id_usuario" : [12],
+        "hora_inicio" : "14:30",
+        "hora_fin" : "15:00",
+        "fecha" : "06/12/2024",
+        "ced_empleado":100000022,
+        "id_kart":12,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 2,
+                "id_usuario" : 12,
+                "ced_empleado": 100000014,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":13,
+        "idPista": 1,
+        "id_usuario" : [13],
+        "hora_inicio" : "15:00",
+        "hora_fin" : "15:30",
+        "fecha" : "07/12/2024",
+        "ced_empleado":100000020,
+        "id_kart":13,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 3,
+                "id_usuario" : 13,
+                "ced_empleado": 100000013,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":14,
+        "idPista": 2,
+        "id_usuario" : [14],
+        "hora_inicio" : "15:30",
+        "hora_fin" : "16:00",
+        "fecha" : "02/01/2025",
+        "ced_empleado":100000021,
+        "id_kart":14,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 4,
+                "id_usuario" : 14,
+                "ced_empleado": 100000016,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":15,
+        "idPista": 3,
+        "id_usuario" : [15],
+        "hora_inicio" : "16:00",
+        "hora_fin" : "16:30",
+        "fecha" : "03/01/2025",
+        "ced_empleado":100000022,
+        "id_kart":15,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 5,
+                "id_usuario" : 15,
+                "ced_empleado": 100000013,
+                "estado": "En Uso"
+            }
+        ]
+    },{
+        "_id":16,
+        "idPista": 1,
+        "id_usuario" : [16],
+        "hora_inicio" : "16:30",
+        "hora_fin" : "17:00",
+        "fecha" : "04/01/2025",
+        "ced_empleado":100000020,
+        "id_kart":16,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 6,
+                "id_usuario" : 16,
+                "ced_empleado": 100000015,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":17,
+        "idPista": 2,
+        "id_usuario" : [17],
+        "hora_inicio" : "17:00",
+        "hora_fin" : "17:30",
+        "fecha" : "05/01/2025",
+        "ced_empleado":100000021,
+        "id_kart":17,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 7,
+                "id_usuario" : 17,
+                "ced_empleado": 100000015,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":18,
+        "idPista": 3,
+        "id_usuario" : [18],
+        "hora_inicio" : "17:30",
+        "hora_fin" : "18:00",
+        "fecha" : "06/01/2025",
+        "ced_empleado":100000022,
+        "id_kart":18,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 8,
+                "id_usuario" : 18,
+                "ced_empleado": 100000016,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":19,
+        "idPista": 1,
+        "id_usuario" : [19],
+        "hora_inicio" : "09:00",
+        "hora_fin" : "09:30",
+        "fecha" : "07/11/2024",
+        "ced_empleado":100000020,
+        "id_kart":19,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 9,
+                "id_usuario" : 19,
+                "ced_empleado": 100000015,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":20,
+        "idPista": 2,
+        "id_usuario" : [20],
+        "hora_inicio" : ":09:30",
+        "hora_fin" : "10:00",
+        "fecha" : "07/11/2024",
+        "ced_empleado":100000021,
+        "id_kart":20,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 10,
+                "id_usuario" : 20,
+                "ced_empleado": 100000015,
+                "estado": "En Uso"
+            }
+        ]
+    },{
+        "_id":21,
+        "idPista": 3,
+        "id_usuario" : [21],
+        "hora_inicio" : "10:00",
+        "hora_fin" : "10:30",
+        "fecha" : "07/11/2024",
+        "ced_empleado":100000022,
+        "id_kart":21,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 11,
+                "id_usuario" : 21,
+                "ced_empleado": 100000013,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":22,
+        "idPista": 1,
+        "id_usuario" : [22],
+        "hora_inicio" : "10:30",
+        "hora_fin" : "11:00",
+        "fecha" : "07/11/2024",
+        "ced_empleado":100000020,
+        "id_kart":22,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 12,
+                "id_usuario" : 22,
+                "ced_empleado": 100000013,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":23,
+        "idPista": 2,
+        "id_usuario" : [23],
+        "hora_inicio" : "11:00",
+        "hora_fin" : "11:30",
+        "fecha" : "07/11/2024",
+        "ced_empleado":100000021,
+        "id_kart":23,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 13,
+                "id_usuario" : 23,
+                "ced_empleado": 100000013,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":24,
+        "idPista": 3,
+        "id_usuario" : [24],
+        "hora_inicio" : "11:30",
+        "hora_fin" : "12:00",
+        "fecha" : "07/11/2024",
+        "ced_empleado":100000022,
+        "id_kart":24,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento": 14,
+                "id_usuario" : 24,
+                "ced_empleado": 100000014,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":25,
+        "idPista": 1,
+        "id_usuario" : [25],
+        "hora_inicio" : "09:00",
+        "hora_fin" : "09:30",
+        "fecha" : "10/12/2024",
+        "ced_empleado":100000020,
+        "id_kart":1,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 15,
+                "id_usuario" : 25,
+                "ced_empleado": 100000015,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":26,
+        "idPista": 2,
+        "id_usuario" : [26],
+        "hora_inicio" : "09:30",
+        "hora_fin" : "10:00",
+        "fecha" : "10/12/2024",
+        "ced_empleado":100000021,
+        "id_kart":2,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 1,
+                "id_usuario" : 26,
+                "ced_empleado": 100000015,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":27,
+        "idPista": 3,
+        "id_usuario" : [27],
+        "hora_inicio" : "10:00",
+        "hora_fin" : "10:30",
+        "fecha" : "10/12/2024",
+        "ced_empleado":100000022,
+        "id_kart":3,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 2,
+                "id_usuario" : 27,
+                "ced_empleado": 100000013,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":28,
+        "idPista": 1,
+        "id_usuario" : [28],
+        "hora_inicio" : "10:30",
+        "hora_fin" : "11:00",
+        "fecha" : "10/12/2024",
+        "ced_empleado":100000020,
+        "id_kart":4,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 3,
+                "id_usuario" : 28,
+                "ced_empleado": 100000013,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":29,
+        "idPista": 2,
+        "id_usuario" : [29],
+        "hora_inicio" : "11:00",
+        "hora_fin" : "11:30",
+        "fecha" : "10/12/2024",
+        "ced_empleado":100000021,
+        "id_kart":5,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 4,
+                "id_usuario" : 29,
+                "ced_empleado": 100000014,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":30,
+        "idPista": 3,
+        "id_usuario" : [30],
+        "hora_inicio" : "11:30",
+        "hora_fin" : "12:00",
+        "fecha" : "10/12/2024",
+        "ced_empleado":100000022,
+        "id_kart":6,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 5,
+                "id_usuario" : 30,
+                "ced_empleado": 100000014,
+                "estado": "En Uso"
+            }
+        ]
+    },{
+        "_id":31,
+        "idPista": 1,
+        "id_usuario" : [31],
+        "hora_inicio" : "09:00",
+        "hora_fin" : "09:30",
+        "fecha" : "15/01/2025",
+        "ced_empleado":100000020,
+        "id_kart":7,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 6,
+                "id_usuario" : 31,
+                "ced_empleado": 100000015,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":32,
+        "idPista": 2,
+        "id_usuario" : [32],
+        "hora_inicio" : "09:30",
+        "hora_fin" : "10:00",
+        "fecha" : "15/01/2025",
+        "ced_empleado":100000021,
+        "id_kart":8,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 7,
+                "id_usuario" : 32,
+                "ced_empleado": 100000015,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":33,
+        "idPista": 3,
+        "id_usuario" : [33],
+        "hora_inicio" : "10:00",
+        "hora_fin" : "10:30",
+        "fecha" : "15/01/2025",
+        "ced_empleado":100000022,
+        "id_kart":9,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 8,
+                "id_usuario" : 33,
+                "ced_empleado": 100000016,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":34,
+        "idPista": 1,
+        "id_usuario" : [34],
+        "hora_inicio" : "10:30",
+        "hora_fin" : "11:00",
+        "fecha" : "15/01/2025",
+        "ced_empleado":100000020,
+        "id_kart":10,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 9,
+                "id_usuario" : 34,
+                "ced_empleado": 100000015,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":35,
+        "idPista": 2,
+        "id_usuario" : [35],
+        "hora_inicio" : "11:00",
+        "hora_fin" : "11:30",
+        "fecha" : "15/01/2025",
+        "ced_empleado":100000021,
+        "id_kart":11,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 10,
+                "id_usuario" : 35,
+                "ced_empleado": 100000015,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":36,
+        "idPista": 3,
+        "id_usuario" : [36],
+        "hora_inicio" : "11:30",
+        "hora_fin" : "12:00",
+        "fecha" : "15/01/2025",
+        "ced_empleado":100000022,
+        "id_kart":12,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 11,
+                "id_usuario" : 36,
+                "ced_empleado": 100000013,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":37,
+        "idPista": 1,
+        "id_usuario" : [37],
+        "hora_inicio" : "12:00",
+        "hora_fin" : "12:30",
+        "fecha" : "15/12/2024",
+        "ced_empleado":100000020,
+        "id_kart":13,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 12,
+                "id_usuario" : 37,
+                "ced_empleado": 100000013,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":38,
+        "idPista": 2,
+        "id_usuario" : [38],
+        "hora_inicio" : "12:30",
+        "hora_fin" : "13:00",
+        "fecha" : "15/12/2024",
+        "ced_empleado":100000021,
+        "id_kart":14,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 13,
+                "id_usuario" : 38,
+                "ced_empleado": 100000016,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":39,
+        "idPista": 3,
+        "id_usuario" : [39],
+        "hora_inicio" : "13:00",
+        "hora_fin" : "13:30",
+        "fecha" : "15/12/2024",
+        "ced_empleado":100000022,
+        "id_kart":15,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 14,
+                "id_usuario" : 39,
+                "ced_empleado": 100000013,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":40,
+        "idPista": 1,
+        "id_usuario" : [40],
+        "hora_inicio" : "13:30",
+        "hora_fin" : "14:00",
+        "fecha" : "15/12/2024",
+        "ced_empleado":100000020,
+        "id_kart":16,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 15,
+                "id_usuario" : 40,
+                "ced_empleado": 100000015,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":41,
+        "idPista": 2,
+        "id_usuario" : [41],
+        "hora_inicio" : "14:00",
+        "hora_fin" : "14:30",
+        "fecha" : "15/12/2024",
+        "ced_empleado":100000021,
+        "id_kart":17,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 1,
+                "id_usuario" : 41,
+                "ced_empleado": 100000015,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":42,
+        "idPista": 3,
+        "id_usuario" : [42],
+        "hora_inicio" : "14:30",
+        "hora_fin" : "15:00",
+        "fecha" : "15/12/2024",
+        "ced_empleado":100000022,
+        "id_kart":18,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 2,
+                "id_usuario" : 42,
+                "ced_empleado": 100000016,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":43,
+        "idPista": 1,
+        "id_usuario" : [43],
+        "hora_inicio" : "15:00",
+        "hora_fin" : "15:30",
+        "fecha" : "10/01/2025",
+        "ced_empleado":100000020,
+        "id_kart":19,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 3,
+                "id_usuario" : 43,
+                "ced_empleado": 100000015,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":44,
+        "idPista": 2,
+        "id_usuario" : [44],
+        "hora_inicio" : "15:30",
+        "hora_fin" : "16:00",
+        "fecha" : "10/01/2025",
+        "ced_empleado":100000021,
+        "id_kart":20,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 4,
+                "id_usuario" : 44,
+                "ced_empleado": 100000015,
+                "estado": "Devuelto"
+            }
+        ]
+    },{
+        "_id":45,
+        "idPista": 3,
+        "id_usuario" : [45],
+        "hora_inicio" : "16:00",
+        "hora_fin" : "16:30",
+        "fecha" : "10/01/2025",
+        "ced_empleado":100000022,
+        "id_kart":21,
+        "usuarioXimplemento" : [
+            {
+                "id_implemento" : 5,
+                "id_usuario" : 45,
+                "ced_empleado": 100000013,
+                "estado": "Devuelto"
+            }
+        ]
+    }
+]

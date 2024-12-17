@@ -3,6 +3,12 @@ const Proveedor = require("../models/proveedor");
 const Repuesto = require("../models/repuesto");
 const ProvXRepuesto = require("../models/provxrepuesto");
 
+function convertirFecha(fechaStr) {
+    const [dia, mes, anio] = fechaStr.split('/');
+    const anioCompleto = `20${anio}`; // Asegurarse de que el año tenga 4 dígitos
+    return new Date(`${anioCompleto}-${mes}-${dia}`);
+}
+
 exports.cargarDesdeJSON = async (req, res) => {
     try {
         const relaciones = req.body;
@@ -31,11 +37,13 @@ exports.cargarDesdeJSON = async (req, res) => {
                     throw new Error(`El repuesto con ID ${id_repuesto} no existe.`);
                 }
 
+                const fechaConvertida = convertirFecha(relacion.fecha);
+
                 // Insertar la relación
                 const nuevaRelacion = new ProvXRepuesto({
                     id_proveedor,
                     id_repuesto,
-                    fecha: relacion.fecha,
+                    fecha: fechaConvertida,
                 });
                 await nuevaRelacion.save();
 

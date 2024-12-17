@@ -93,10 +93,18 @@ exports.crearRelacionEmpleadoXCarro = async (req, res) => {
 };
 exports.obtenerEmpXCarro = async (req, res) => {
     try {
-      const empXCarro = await EmpleadoXCarro.find();
+      const empXCarro = await EmpleadoXCarro.find()
+        .populate("ced_emp", "_id nombre apellido telefono rol") // Cargar datos del empleado
+        .populate({
+          path: "idCarroEmer", // Cargar datos del carro de emergencia
+          select: "carroEmergencia.idCarroEmer carroEmergencia.estado carroEmergencia.matricula", // Seleccionar campos específicos
+          model: "Pista", // Debes especificar explícitamente que `idCarroEmer` pertenece a la colección `Pista`
+        });
+  
       res.status(200).json(empXCarro);
     } catch (error) {
+      console.error(error);
       res.status(500).json({ error: error.message });
     }
   };
-
+  
