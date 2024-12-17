@@ -21,9 +21,9 @@ mongoose
 // Rutas
 app.use("/api/empleadoXcarro", empleadoXcarroRoutes);
 app.use("/api/empleados", empleadoRoutes);
-app.use("/api/pistas", pistaRoutes);
-app.use("/api/puestoComida", puestoComida),
-  app.use("/api/usuarios", usuarioRoutes);
+app.use("/api/pistas", pistaRoutes);;
+app.use("/api/puestoComida", puestoComida);
+app.use("/api/usuarios", usuarioRoutes);
 app.use("/api/menus", menuRoutes);
 app.use("/api/mantenimientos", mantenimientoRoutes);
 app.use('/api/empXMantenimientos', empXMantenimientoRoutes);
