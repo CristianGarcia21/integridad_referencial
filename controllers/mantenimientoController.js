@@ -1,6 +1,4 @@
 const Mantenimiento = require("../models/mantenimiento");
-const Pista = require("../models/pista");
-const Repuesto = require("../models/repuesto");
 
 exports.cargarDesdeJSON = async (req, res) => {
     try {
@@ -15,60 +13,18 @@ exports.cargarDesdeJSON = async (req, res) => {
 
         for (const mantenimiento of mantenimientos) {
             try {
-                const { idMantenimiento, descripcion, idKart, idPista, idCarroEmer, idRepuestos } = mantenimiento;
+                const { _id, descripcion, idKart, idPista, idCarroEmer, idRepuestos } = mantenimiento;
 
-                // Validar existencia de pista y carro de emergencia embebido
-                const pista = await Pista.findById(idPista);
-                if (!pista) {
-                    throw new Error(`La pista con ID ${idPista} no existe.`);
-                }
-                // Comparar directamente el idCarroEmer con el idCarroEmer del objeto carroEmergencia
-                if (pista.carroEmergencia && pista.carroEmergencia.idCarroEmer === idCarroEmer) {
-
-                    // Crear e insertar el nuevo mantenimiento
-                    const nuevoMantenimiento = new Mantenimiento({ idMantenimiento, descripcion, idKart, idPista, idCarroEmer, idRepuestos });
-                    await nuevoMantenimiento.save();
-                    exitos.push(`Mantenimiento con ID ${idMantenimiento} creado correctamente.`);
-                } else {
-                    throw new Error(`El carro de emergencia con ID ${idCarroEmer} no existe en la pista con ID ${idPista}.`);
-                }
+                // Crear e insertar el nuevo mantenimiento
+                const nuevoMantenimiento = new Mantenimiento({ _id, descripcion, idKart, idPista, idCarroEmer, idRepuestos });
+                await nuevoMantenimiento.save();
+                exitos.push(`Mantenimiento con ID ${_id} creado correctamente.`);
             } catch (error) {
-                errores.push(error.message);
+                errores.push(`Error con mantenimiento ID ${mantenimiento._id}: ${error.message}`);
             }
         }
 
-        res.json({ message: "Carga completada.", exitos, errores });
-    } catch (error) {
-        res.status(500).json({ error: error.message });
-    }
-};
-
-exports.crearMantenimiento = async (req, res) => {
-    try {
-        const { idMantenimiento, descripcion, idKart, idPista, idCarroEmer, idRepuestos } = req.body;
-
-        // Validar existencia de pista y carro de emergencia embebido
-        const pista = await Pista.findById(idPista);
-        if (!pista) {
-            return res.status(404).json({ error: `La pista con ID ${idPista} no existe.` });
-        }
-
-        const carroEmerExists = pista.carroEmergencia.some(carro => carro.idCarroEmer === idCarroEmer);
-        if (!carroEmerExists) {
-            return res.status(404).json({ error: `El carro de emergencia con ID ${idCarroEmer} no existe en la pista con ID ${idPista}.` });
-        }
-
-        // Validar existencia de repuestos
-        const repuestosExist = await Repuesto.find({ _id: { $in: idRepuestos } });
-        if (repuestosExist.length !== idRepuestos.length) {
-            return res.status(404).json({ error: 'Uno o más repuestos no encontrados' });
-        }
-
-        // Crear el mantenimiento
-        const nuevoMantenimiento = new Mantenimiento({ idMantenimiento, descripcion, idKart, idPista, idCarroEmer, idRepuestos });
-        await nuevoMantenimiento.save();
-
-        res.status(201).json({ message: "Mantenimiento creado exitosamente.", mantenimiento: nuevoMantenimiento });
+        res.status(201).json({ message: "Carga completada.", exitos, errores });
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
