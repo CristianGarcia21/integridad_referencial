@@ -6,6 +6,6 @@ const empXMantenimientoController = require('../controllers/empXmantenimientoCon
 router.post('/cargarDesdeJSON', empXMantenimientoController.cargarDesdeJSON);
 
 // Ruta para crear una nueva relación
-router.post('/crear', empXMantenimientoController.crearRelacion);
+router.post('/crearRelacion', empXMantenimientoController.crearRelacion);
 
 module.exports = router;

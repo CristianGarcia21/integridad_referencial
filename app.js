@@ -29,16 +29,17 @@ mongoose
 // Rutas
 app.use("/api/empleadoXcarro", empleadoXcarroRoutes);
 app.use("/api", empleadoRoutes);
-app.use("/api/pistas", pistaRoutes);
-app.use("/api/puestoComida", puestoComida),
-  app.use("/api", usuarioRoutes);
+app.use("/api/pistas", pistaRoutes);;
+app.use("/api/puestoComida", puestoComida);
+app.use("/api/", usuarioRoutes);
 app.use("/api/menus", menuRoutes);
 app.use("/api/mantenimientos", mantenimientoRoutes);
 app.use('/api/empXMantenimientos', empXMantenimientoRoutes);
 app.use('/api/implementos', implementoRoutes);
 app.use('/api', sesionesRoutes)
+app.use('/api/proveedores', proveedorRoutes);
+app.use('/api/repuestos', repuestoRoutes);
 app.use('/api/metodosPago', metodoPagoRoutes);
-
 app.use("/api/proveedores", proveedorRoutes);
 app.use("/api/repuestos", repuestoRoutes);
 app.use("/api/provxrepuestos", provXrepuestoRoutes);
