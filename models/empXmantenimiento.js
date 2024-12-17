@@ -4,21 +4,21 @@ const Schema = mongoose.Schema;
 
 // Esquema
 const empXmantenimientoSchema = new Schema({
-    _id: {
-        type: Schema.Types.ObjectId,
-        ref: 'Empleado',
-        required: true
-    },
     idMantenimiento: {
-        type: Schema.Types.ObjectId,
+        type: Number,
         ref: 'Mantenimiento',
-        required: true
+        required: true,
+    },
+    idEmpleado: {
+        type: Number,
+        ref: 'Empleado',
+        required: true,
     }
 });
 // Middleware para verificar que las relaciones existan antes de guardar
 empXmantenimientoSchema.pre('validate', async function (next) {
     try {
-        const empleado = await mongoose.model('Empleado').findById(this._id);
+        const empleado = await mongoose.model('Empleado').findById(this.idEmpleado);
         const mantenimiento = await mongoose.model('Mantenimiento').findById(this.idMantenimiento);
 
         if (!empleado) {
@@ -38,7 +38,7 @@ empXmantenimientoSchema.pre('validate', async function (next) {
 // Middleware verificar relaciones antes de eliminar
 empXmantenimientoSchema.pre('remove', async function (next) {
     try {
-        const empleado = await mongoose.model('Empleado').findById(this._id);
+        const empleado = await mongoose.model('Empleado').findById(this.idEmpleado);
         const mantenimiento = await mongoose.model('Mantenimiento').findById(this.idMantenimiento);
 
         if (empleado || mantenimiento) {
@@ -55,7 +55,7 @@ empXmantenimientoSchema.pre('remove', async function (next) {
 // Middleware para actualizar en cascada
 empXmantenimientoSchema.pre('save', async function (next) {
     try {
-        const empleado = await mongoose.model('Empleado').findById(this._id);
+        const empleado = await mongoose.model('Empleado').findById(this.idEmpleado);
         const mantenimiento = await mongoose.model('Mantenimiento').findById(this.idMantenimiento);
 
         if (!empleado || !mantenimiento) {

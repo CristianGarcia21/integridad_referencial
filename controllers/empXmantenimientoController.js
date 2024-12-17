@@ -1,5 +1,3 @@
-const Empleado = require("../models/empleado");
-const Mantenimiento = require("../models/mantenimiento");
 const EmpXMantenimiento = require("../models/empXmantenimiento");
 
 exports.cargarDesdeJSON = async (req, res) => {
@@ -15,26 +13,14 @@ exports.cargarDesdeJSON = async (req, res) => {
 
         for (const relacion of relaciones) {
             try {
-                const { ced_emp, idMantenimiento } = relacion;
-
-                // Validar existencia de empleado
-                const empleado = await Empleado.findById(ced_emp);
-                if (!empleado) {
-                    throw new Error(`El empleado con ID ${ced_emp} no existe.`);
-                }
-
-                // Validar existencia de mantenimiento
-                const mantenimiento = await Mantenimiento.findById(idMantenimiento);
-                if (!mantenimiento) {
-                    throw new Error(`El mantenimiento con ID ${idMantenimiento} no existe.`);
-                }
+                const { idEmpleado, idMantenimiento } = relacion;
 
                 // Crear e insertar la nueva relación
-                const nuevaRelacion = new EmpXMantenimiento({ ced_emp, idMantenimiento });
+                const nuevaRelacion = new EmpXMantenimiento({ idEmpleado, idMantenimiento });
                 await nuevaRelacion.save();
-                exitos.push(`Relación con empleado ID ${ced_emp} y mantenimiento ID ${idMantenimiento} creada correctamente.`);
+                exitos.push(`Relación con empleado ID ${idEmpleado} y mantenimiento ID ${idMantenimiento} creada correctamente.`);
             } catch (error) {
-                errores.push(error.message);
+                errores.push(`Error con relación Empleado ${relacion.idEmpleado} - Mantenimiento ${relacion.idMantenimiento}: ${error.message}`);
             }
         }
 
@@ -46,25 +32,13 @@ exports.cargarDesdeJSON = async (req, res) => {
 
 exports.crearRelacion = async (req, res) => {
     try {
-        const { ced_emp, idMantenimiento } = req.body;
+        const { idEmpleado, idMantenimiento } = req.body;
 
-        // Validar existencia de empleado
-        const empleado = await Empleado.findById(ced_emp);
-        if (!empleado) {
-            return res.status(404).json({ error: `El empleado con ID ${ced_emp} no existe.` });
-        }
-
-        // Validar existencia de mantenimiento
-        const mantenimiento = await Mantenimiento.findById(idMantenimiento);
-        if (!mantenimiento) {
-            return res.status(404).json({ error: `El mantenimiento con ID ${idMantenimiento} no existe.` });
-        }
-
-        // Crear la relación
-        const nuevaRelacion = new EmpXMantenimiento({ ced_emp, idMantenimiento });
+        // Crear e insertar la nueva relación
+        const nuevaRelacion = new EmpXMantenimiento({ idEmpleado, idMantenimiento });
         await nuevaRelacion.save();
 
-        res.status(201).json({ message: "Relación creada exitosamente.", relacion: nuevaRelacion });
+        res.status(201).json({ message: "Relación creada correctamente." });
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
