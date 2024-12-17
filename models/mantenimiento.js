@@ -10,11 +10,9 @@ const mantenimientoSchema = new Schema({
     },
     descripcion: {
         type: String,
-        required: true
     },
     idKart: {
         type: Number,
-        required: true
     },
     idPista: {
         type: Schema.Types.ObjectId,
@@ -23,12 +21,10 @@ const mantenimientoSchema = new Schema({
     },
     idCarroEmer: {
         type: Number,
-        required: true
     },
     idRepuestos: [{
         type: Schema.Types.ObjectId,
         ref: 'Repuesto',
-        required: true
     }]
 });
 

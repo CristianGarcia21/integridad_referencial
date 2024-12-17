@@ -24,11 +24,6 @@ exports.cargarDesdeJSON = async (req, res) => {
                 }
                 // Comparar directamente el idCarroEmer con el idCarroEmer del objeto carroEmergencia
                 if (pista.carroEmergencia && pista.carroEmergencia.idCarroEmer === idCarroEmer) {
-                    // Validar existencia de repuestos
-                    const repuestosExist = await Repuesto.find({ _id: { $in: idRepuestos } });
-                    if (repuestosExist.length !== idRepuestos.length) {
-                        throw new Error('Uno o más repuestos no encontrados');
-                    }
 
                     // Crear e insertar el nuevo mantenimiento
                     const nuevoMantenimiento = new Mantenimiento({ idMantenimiento, descripcion, idKart, idPista, idCarroEmer, idRepuestos });
